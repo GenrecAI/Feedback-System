@@ -1,4 +1,8 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash, send_file, make_response
+from reportlab.lib import colors
+from reportlab.lib.pagesizes import letter, landscape
+from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, Image
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from utils import read_csv_as_list, update_mainratings, normalize_semester
 from config import (DEPARTMENTS_FILE, SEMESTERS_FILE, MAINRATING_FILE,
                    RATING_FILE, STUDENT_FILE, REQUIRED_FILES, ADMIN_MAPPING_FILE)
@@ -9,6 +13,7 @@ import base64
 import matplotlib.pyplot as plt
 from datetime import datetime
 import textwrap
+from report_generator import generate_feedback_report
 import shutil
 
 hod_bp = Blueprint('hod', __name__)
@@ -323,3 +328,76 @@ def hod_report():
                          averages=overall_avg,
                          date=datetime.now().strftime("%Y-%m-%d %H:%M"),
                          detailed_ratings=detailed_ratings)
+
+@hod_bp.route('/hod/download_pdf')
+def download_pdf():
+    department = request.args.get('department')
+    semester = request.args.get('semester')
+    
+    if not department or not semester:
+        flash("Missing department or semester selection.", "danger")
+        return redirect(url_for('hod.hod_select'))
+
+    normalized_input_semester = normalize_semester(semester)
+    update_mainratings()
+    
+    # Prepare feedback data in the required format
+    feedback_data = {}
+    staff_counter = 1
+    
+    if os.path.exists(MAINRATING_FILE):
+        with open(MAINRATING_FILE, newline='', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                dep = row.get('department', '').strip()
+                sem = normalize_semester(row.get('semester', ''))
+                if dep == department.strip() and sem == normalized_input_semester:
+                    staff_name = row.get('staff').strip()
+                    subject_name = row.get('subject').strip()
+                    
+                    # Collect individual question scores
+                    scores = []
+                    for i in range(1, 11):
+                        score = float(row.get(f'q{i}_avg', '0.00'))
+                        scores.append(score)
+
+                    # Add to feedback data with staff reference
+                    feedback_data[staff_name] = {
+                        'reference': f'S{staff_counter}',
+                        'subject': subject_name,
+                        'scores': scores
+                    }
+                    staff_counter += 1
+
+    if not feedback_data:
+        flash("No rating data found for the selected department and semester.", "danger")
+        return redirect(url_for('hod.hod_select'))
+
+    # Generate PDF using our new report generator
+    try:
+        # Extract year from semester (assuming format like "Semester 4")
+        year = (int(normalized_input_semester) + 1) // 2
+        
+        generate_feedback_report(
+            academic_year=str(datetime.now().year),
+            branch=department,
+            semester=semester,
+            year=str(year),
+            feedback_data=feedback_data
+        )
+        
+        # Read the generated PDF and send it
+        filename = f"feedback_report_{department}_{semester}.pdf"
+        with open(filename, 'rb') as f:
+            pdf_content = f.read()
+        
+        return send_file(
+            io.BytesIO(pdf_content),
+            mimetype='application/pdf',
+            as_attachment=True,
+            download_name=filename
+        )
+        
+    except Exception as e:
+        flash(f"Error generating PDF report: {str(e)}", "danger")
+        return redirect(url_for('hod.hod_select'))
