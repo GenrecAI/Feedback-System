@@ -6,6 +6,38 @@ from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Image
 from reportlab.platypus import KeepTogether
 import io
+import os
+import csv
+
+def read_feedback_data(department, semester):
+    """Read and process feedback data from mainrating.csv"""
+    feedback_data = {}
+    ref_count = 1
+    
+    print(f"\nReading feedback data for {department}, Semester {semester}...")
+    with open('mainrating.csv', 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            if row['department'] == department and row['semester'] == str(semester):
+                # Create unique key combining staff and subject
+                key = f"{row['staff']}_{row['subject']}"
+                feedback_data[key] = {
+                    "reference": f"S{ref_count}",
+                    "staff_name": row['staff'],
+                    "subject": row['subject'],
+                    "scores": [
+                        float(row['q1_avg']), float(row['q2_avg']),
+                        float(row['q3_avg']), float(row['q4_avg']),
+                        float(row['q5_avg']), float(row['q6_avg']),
+                        float(row['q7_avg']), float(row['q8_avg']),
+                        float(row['q9_avg']), float(row['q10_avg'])
+                    ]
+                }
+                print(f"Found data for {row['staff']} teaching {row['subject']}")
+                ref_count += 1
+    
+    print(f"Total {len(feedback_data)} staff-subject combinations processed")
+    return feedback_data
 
 def create_score_graph(feedback_data):
     """Create a prominent bar graph of total scores."""
@@ -13,9 +45,9 @@ def create_score_graph(feedback_data):
     references = []
     totals = []
     
-    for staff_data in feedback_data.values():
-        references.append(staff_data['reference'])
-        totals.append(sum(staff_data['scores']))
+    for data in feedback_data.values():
+        references.append(data['reference'])
+        totals.append(sum(data['scores'])/10)  # Average score
     
     # Set figure parameters for high quality
     plt.rcParams['figure.dpi'] = 300
@@ -26,12 +58,13 @@ def create_score_graph(feedback_data):
     ax = plt.gca()
     ax.set_facecolor('white')
     
-    # Create bold blue bars with generous spacing
-    bars = plt.bar(references, totals, color='#0000FF', width=0.6)
+    # Create bars with teal green color
+    teal_green = '#008080'  # Classic teal color
+    bars = plt.bar(references, totals, color=teal_green, width=0.6)
     
     # Customize the plot
-    plt.ylim(0, 120)
-    plt.yticks(range(0, 121, 20))
+    plt.ylim(0, 10)  # Set y-axis limit to 10 since these are averages
+    plt.yticks(range(0, 11, 2))  # Ticks at 0, 2, 4, 6, 8, 10
     plt.grid(True, axis='y', linestyle='--', alpha=0.7, color='lightgrey')
     
     # Remove border
@@ -40,13 +73,13 @@ def create_score_graph(feedback_data):
     
     # Bold labels
     plt.xlabel('Staff References', fontsize=10, fontweight='bold')
-    plt.ylabel('Total Score', fontsize=10, fontweight='bold')
+    plt.ylabel('Average Score', fontsize=10, fontweight='bold')
     
     # Add value labels on top of bars
     for bar in bars:
         height = bar.get_height()
         ax.text(bar.get_x() + bar.get_width()/2., height,
-                f'{height:.1f}',
+                f'{height:.2f}',
                 ha='center', va='bottom')
     
     # Tight layout to maximize graph size
@@ -60,21 +93,17 @@ def create_score_graph(feedback_data):
     
     return img_buffer
 
-def split_questions_into_columns(questions, num_columns=3):
-    """Split questions into columns for space-efficient layout."""
-    col_length = (len(questions) + num_columns - 1) // num_columns
-    columns = []
-    
-    for i in range(0, len(questions), col_length):
-        columns.append(questions[i:i + col_length])
-    
-    return columns
-
 def generate_feedback_report(academic_year, branch, semester, year, feedback_data):
     """Generate a single-page PDF report with prominent graph."""
+    # Create filename and get absolute path
+    filename = f"feedback_report_{branch}_Semester {semester}.pdf"
+    filepath = os.path.abspath(filename)
+    print(f"\nGenerating feedback report...")
+    print(f"Output file will be saved as: {filepath}")
+    
     # Create PDF document with minimal margins
     doc = SimpleDocTemplate(
-        f"feedback_report_{branch}_{semester}.pdf",
+        filename,
         pagesize=A4,
         rightMargin=25,
         leftMargin=25,
@@ -82,7 +111,7 @@ def generate_feedback_report(academic_year, branch, semester, year, feedback_dat
         bottomMargin=25
     )
 
-    # Styles
+    # Styles and elements setup...
     styles = getSampleStyleSheet()
     
     title_style = ParagraphStyle(
@@ -112,13 +141,31 @@ def generate_feedback_report(academic_year, branch, semester, year, feedback_dat
     question_style = ParagraphStyle(
         'QuestionStyle',
         parent=styles['Normal'],
-        fontSize=7,
-        leading=8  # Minimal line spacing
+        fontSize=9,
+        leading=10,
+        leftIndent=0
     )
-
+    
+    reference_title_style = ParagraphStyle(
+        'ReferenceTitle',
+        parent=styles['Normal'],
+        fontSize=10,
+        leading=12,
+        fontName='Helvetica-Bold'
+    )
+    
+    reference_style = ParagraphStyle(
+        'ReferenceStyle',
+        parent=styles['Normal'],
+        fontSize=9,
+        leading=10,
+        leftIndent=30
+    )
+    
     # Document elements
     elements = []
 
+    print("Creating document header...")
     # Compact header
     elements.append(Paragraph("V.S.B. ENGINEERING COLLEGE, KARUR", title_style))
     elements.append(Paragraph("(An Autonomous Institution)", subtitle_style))
@@ -130,18 +177,19 @@ def generate_feedback_report(academic_year, branch, semester, year, feedback_dat
     elements.append(Paragraph(academic_info, info_style))
     elements.append(Spacer(1, 5))
 
+    print("Creating feedback data table...")
     # Compact table
     table_data = [
         ['Staff Name', 'Subject'] + [f'Q{i}' for i in range(1, 11)] + ['Total']
     ]
 
-    for staff_name, data in feedback_data.items():
+    for key, data in feedback_data.items():
         scores = data['scores']
-        total = sum(scores)
+        total = sum(scores)/10  # Calculate average
         row = [
-            f"{staff_name} ({data['reference']})",
+            data['staff_name'],
             data['subject']
-        ] + [f"{score:.1f}" for score in scores] + [f"{total:.1f}"]
+        ] + [f"{score:.2f}" for score in scores] + [f"{total:.2f}"]
         table_data.append(row)
 
     table = Table(table_data)
@@ -155,79 +203,95 @@ def generate_feedback_report(academic_year, branch, semester, year, feedback_dat
         ('ALIGN', (2, 0), (-1, -1), 'CENTER'),
         ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
         ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
-        ('TOPPADDING', (0, 0), (-1, -1), 3),
-        ('BOTTOMPADDING', (0, 0), (-1, -1), 3),
+        ('TOPPADDING', (0, 0), (-1, -1), 2),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 2),
         ('LEFTPADDING', (0, 0), (-1, -1), 3),
         ('RIGHTPADDING', (0, 0), (-1, -1), 3),
     ]))
     elements.append(table)
-    elements.append(Spacer(1, 10))
+    elements.append(Spacer(1, 5))
 
-    # Prominent graph
+    print("Generating score graph...")
+    # Graph with reduced height
     graph_buffer = create_score_graph(feedback_data)
     img = Image(graph_buffer)
     # Set width to 80% of page width
     img.drawWidth = A4[0] * 0.8
-    # Scale height proportionally but target about 4 inches
-    img.drawHeight = 4 * inch
+    # Scale height proportionally but keep small for single page
+    img.drawHeight = 2.3 * inch
     elements.append(img)
-    elements.append(Spacer(1, 10))
+    elements.append(Spacer(1, 5))
 
-    # Questions in three columns
-    questions = [
-        "1. How is the faculty's approach?",
-        "2. How has the faculty prepared for the classes?",
-        "3. Does the faculty inform you about your expected competencies, course outcomes?",
-        "4. How often does the faculty illustrate the concepts through examples and practical applications?",
-        "5. Whether faculty covers syllabus in time?",
-        "6. Do you agree that the faculty teaches content beyond syllabus?",
-        "7. How does the faculty communicate?",
-        "8. Whether faculty returns answer scripts in time and produce helpful comments?",
-        "9. How does the faculty identify your strengths and encourage you with high level of challenges?",
-        "10. How does the faculty counsel & encourage the Students?"
+    print("Adding references and questions...")
+    # References Section
+    elements.append(Paragraph("References:", reference_title_style))
+    elements.append(Spacer(1, 2))
+    
+    # Add staff references one per line
+    for key, data in feedback_data.items():
+        reference_line = f"{data['reference']}: {data['staff_name']} - {data['subject']}"
+        elements.append(Paragraph(reference_line, reference_style))
+    
+    elements.append(Spacer(1, 5))
+
+    # Questions Section (single column)
+    questions_text = [
+        "Question  1: How is the faculty's approach?",
+        "Question  2: How has the faculty prepared for the classes?",
+        "Question  3: Does the faculty inform you about your expected competencies, course outcomes?",
+        "Question  4: How often does the faculty illustrate the concepts through examples and practical applications?",
+        "Question  5: Whether faculty covers syllabus in time?",
+        "Question  6: Do you agree that the faculty teaches content beyond syllabus?",
+        "Question  7: How does the faculty communicate?",
+        "Question  8: Whether faculty returns answer scripts in time and produce helpful comments?",
+        "Question  9: How does the faculty identify your strengths and encourage you with high level of challenges?",
+        "Question  10: How does the faculty counsel & encourage the Students?"
     ]
     
-    # Split questions into three columns
-    question_columns = split_questions_into_columns(questions)
-    question_table_data = list(zip(*question_columns))
+    # Add questions in single column
+    for question in questions_text:
+        elements.append(Paragraph(question, question_style))
     
-    # Create table for questions
-    question_table = Table(question_table_data, colWidths=[doc.width/3.1]*3)
-    question_table.setStyle(TableStyle([
-        ('FONTNAME', (0, 0), (-1, -1), 'Helvetica'),
-        ('FONTSIZE', (0, 0), (-1, -1), 7),
-        ('ALIGN', (0, 0), (-1, -1), 'LEFT'),
-        ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-    ]))
-    elements.append(question_table)
-
-    # Signature line at bottom
-    signature_style = ParagraphStyle(
-        'SignatureStyle',
-        parent=styles['Normal'],
-        fontSize=8,
-        alignment=1
+    # Add extra space after questions to push signatures to bottom
+    elements.append(Spacer(1, 0.8 * inch))
+    
+    print("Adding signature section...")
+    # Create signature table for even spacing
+    signature_table = Table(
+        [["Class Advisor", "HOD", "Principal"]],
+        colWidths=[doc.width/3.0]*3,
+        style=TableStyle([
+            ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+            ('FONTNAME', (0, 0), (-1, -1), 'Helvetica'),
+            ('FONTSIZE', (0, 0), (-1, -1), 9),
+            ('TOPPADDING', (0, 0), (-1, -1), 0),
+            ('BOTTOMPADDING', (0, 0), (-1, -1), 0),
+            ('GRID', (0, 0), (-1, -1), 0, colors.white),
+        ])
     )
-    elements.append(Spacer(1, 10))
-    elements.append(Paragraph("Class Advisor                    HOD                    Principal", signature_style))
+    elements.append(signature_table)
 
     # Build PDF
+    print("\nBuilding final PDF...")
     doc.build(elements)
+    print(f"Report generation complete!")
+    print(f"Report saved at: {filepath}")
 
 if __name__ == "__main__":
-    # Example data
-    sample_data = {
-        "Mrs.V.Sheela": {
-            "reference": "S1",
-            "subject": "23HST201 - Professional English II",
-            "scores": [9.3, 9.3, 9.5, 9.7, 9.2, 9.4, 9.2, 9.5, 9.7, 9.6]
-        }
-    }
+    department = "Computer Science and Business Systems"
+    semester = 4
+    
+    print("\nStarting feedback report generation...")
+    print(f"Department: {department}")
+    print(f"Semester: {semester}")
+    
+    # Read data from mainrating.csv
+    feedback_data = read_feedback_data(department, semester)
 
     generate_feedback_report(
         academic_year="2024-25",
-        branch="Computer Science and Engineering",
-        semester="EVEN",
+        branch=department,
+        semester=semester,
         year="II",
-        feedback_data=sample_data
+        feedback_data=feedback_data
     )

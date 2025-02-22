@@ -166,9 +166,17 @@ def hod_select():
     semesters = read_csv_as_list(SEMESTERS_FILE)
     
     if request.method == 'POST':
-        action = request.form.get('action')
+        action = request.form.get('action', '')
         
-        # Handle actions that don't need department/semester
+        # Handle PDF viewing and downloading
+        if action in ['view_pdf', 'download_pdf']:
+            department = request.form.get('department')
+            semester = request.form.get('semester')
+            if not department or not semester:
+                flash("Please select both department and semester.", "danger")
+                return redirect(url_for('hod.hod_select'))
+            return handle_pdf_request(department, semester
+, action == 'download_pdf')
         if action == 'download':
             # Update mainrating.csv with all data before downloading
             update_mainratings()
@@ -329,19 +337,12 @@ def hod_report():
                          date=datetime.now().strftime("%Y-%m-%d %H:%M"),
                          detailed_ratings=detailed_ratings)
 
-@hod_bp.route('/hod/download_pdf')
-def download_pdf():
-    department = request.args.get('department')
-    semester = request.args.get('semester')
-    
-    if not department or not semester:
-        flash("Missing department or semester selection.", "danger")
-        return redirect(url_for('hod.hod_select'))
-
+def handle_pdf_request(department, semester, download=False):
+    """Handle both viewing and downloading of PDF reports."""
     normalized_input_semester = normalize_semester(semester)
     update_mainratings()
     
-    # Prepare feedback data in the required format
+    # Prepare feedback data
     feedback_data = {}
     staff_counter = 1
     
@@ -354,29 +355,27 @@ def download_pdf():
                 if dep == department.strip() and sem == normalized_input_semester:
                     staff_name = row.get('staff').strip()
                     subject_name = row.get('subject').strip()
-                    
-                    # Collect individual question scores
-                    scores = []
-                    for i in range(1, 11):
-                        score = float(row.get(f'q{i}_avg', '0.00'))
-                        scores.append(score)
-
-                    # Add to feedback data with staff reference
-                    feedback_data[staff_name] = {
+                    scores = [float(row.get(f'q{i}_avg', '0.00')) for i in range(1, 11)]
+                    key = f"{staff_name}_{subject_name}"
+                    feedback_data[key] = {
                         'reference': f'S{staff_counter}',
+                        'staff_name': staff_name,
                         'subject': subject_name,
                         'scores': scores
                     }
                     staff_counter += 1
-
+    
     if not feedback_data:
         flash("No rating data found for the selected department and semester.", "danger")
         return redirect(url_for('hod.hod_select'))
+    
+    # Generate the PDF report
+    return generate_and_serve_pdf(department, semester, feedback_data, download)
 
-    # Generate PDF using our new report generator
+def generate_and_serve_pdf(department, semester, feedback_data, download=False):
+    """Generate PDF and either display or download it."""
     try:
-        # Extract year from semester (assuming format like "Semester 4")
-        year = (int(normalized_input_semester) + 1) // 2
+        year = (int(normalize_semester(semester)) + 1) // 2
         
         generate_feedback_report(
             academic_year=str(datetime.now().year),
@@ -386,18 +385,23 @@ def download_pdf():
             feedback_data=feedback_data
         )
         
-        # Read the generated PDF and send it
         filename = f"feedback_report_{department}_{semester}.pdf"
         with open(filename, 'rb') as f:
             pdf_content = f.read()
         
-        return send_file(
+        response = send_file(
             io.BytesIO(pdf_content),
-            mimetype='application/pdf',
-            as_attachment=True,
-            download_name=filename
+            mimetype='application/pdf'
         )
         
+        if download:
+            response.headers["Content-Disposition"] = f"attachment; filename={filename}"
+        else:
+            response.headers["Content-Disposition"] = f"inline; filename={filename}"
+        
+        return response
+        
     except Exception as e:
-        flash(f"Error generating PDF report: {str(e)}", "danger")
+        flash(f"Error with PDF report: {str(e)}", "danger")
         return redirect(url_for('hod.hod_select'))
+
