@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 registerno,department,semester,staff,subject,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,average
 922523244007,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,6.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.10
 922523244007,Computer Science and Business Systems,4,Pavithra,Database Management Systems,5.00,4.00,3.00,2.00,1.00,5.00,4.00,3.00,2.00,1.00,3.00
@@ -519,3 +520,6 @@ registerno,department,semester,staff,subject,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,aver
 922523244019,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,10.00,9.00,9.00,10.00,9.00,10.00,3.00,8.70
 922523244019,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,7.00,8.00,7.00,8.00,7.00,8.00,7.00,8.00,8.00,7.50
 922523244019,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,8.00,9.00,8.00,7.00,8.00,8.00,7.00,8.00,7.00,7.70
+=======
+registerno,department,semester,staff,subject,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,average
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c

@@ -1,4 +1,5 @@
 registerno,department,semester
+<<<<<<< HEAD
 922523244001,Computer Science and Business Systems,4
 922523244002,Computer Science and Business Systems,4
 922523244003,Computer Science and Business Systems,4
@@ -62,3 +63,5 @@ registerno,department,semester
 922523244061,Computer Science and Business Systems,4
 922523244062,Computer Science and Business Systems,4
 
+=======
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c

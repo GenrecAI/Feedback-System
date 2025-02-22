@@ -1,8 +1,11 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash, send_file, make_response
+<<<<<<< HEAD
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter, landscape
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, Image
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+=======
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c
 from utils import read_csv_as_list, update_mainratings, normalize_semester
 from config import (DEPARTMENTS_FILE, SEMESTERS_FILE, MAINRATING_FILE,
                    RATING_FILE, STUDENT_FILE, REQUIRED_FILES, ADMIN_MAPPING_FILE)
@@ -13,7 +16,10 @@ import base64
 import matplotlib.pyplot as plt
 from datetime import datetime
 import textwrap
+<<<<<<< HEAD
 from report_generator import generate_feedback_report
+=======
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c
 import shutil
 
 hod_bp = Blueprint('hod', __name__)
@@ -123,7 +129,11 @@ def download_graph():
     plt.switch_backend('Agg')
     
     # Create figure with high DPI for better quality
+<<<<<<< HEAD
     fig, ax = plt.subplots(figsize=(10, 8), dpi=300)
+=======
+    fig, ax = plt.subplots(figsize=(14, 8), dpi=300)
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c
     colors = plt.cm.viridis([x/10 for x in averages_list])
     bars = ax.barh(labels, averages_list, color=colors, edgecolor='black')
 
@@ -166,6 +176,7 @@ def hod_select():
     semesters = read_csv_as_list(SEMESTERS_FILE)
     
     if request.method == 'POST':
+<<<<<<< HEAD
         action = request.form.get('action', '')
         
         # Handle PDF viewing and downloading
@@ -177,6 +188,11 @@ def hod_select():
                 return redirect(url_for('hod.hod_select'))
             return handle_pdf_request(department, semester
 , action == 'download_pdf')
+=======
+        action = request.form.get('action')
+        
+        # Handle actions that don't need department/semester
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c
         if action == 'download':
             # Update mainrating.csv with all data before downloading
             update_mainratings()
@@ -296,7 +312,11 @@ def hod_report():
 
     plt.switch_backend('Agg')  # Use non-interactive backend
     
+<<<<<<< HEAD
     fig, ax = plt.subplots(figsize=(14,10))
+=======
+    fig, ax = plt.subplots(figsize=(14, 8))
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c
     colors = plt.cm.viridis([x/10 for x in averages_list])
     bars = ax.barh(labels, averages_list, color=colors, edgecolor='black')
 
@@ -335,6 +355,7 @@ def hod_report():
                          graph_url=graph_url,
                          averages=overall_avg,
                          date=datetime.now().strftime("%Y-%m-%d %H:%M"),
+<<<<<<< HEAD
                          detailed_ratings=detailed_ratings)
 
 def handle_pdf_request(department, semester, download=False):
@@ -405,3 +426,6 @@ def generate_and_serve_pdf(department, semester, feedback_data, download=False):
         flash(f"Error with PDF report: {str(e)}", "danger")
         return redirect(url_for('hod.hod_select'))
 
+=======
+                         detailed_ratings=detailed_ratings)
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c

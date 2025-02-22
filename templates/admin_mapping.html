@@ -13,7 +13,10 @@
 <body class="container mt-4">
     <header><h1>VSB Engineering College - Staff Mapping</h1></header>
     <h2 class="mt-4">Staff Page</h2>
+<<<<<<< HEAD
     
+=======
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c
     {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
             <div id="flash-messages">
@@ -50,7 +53,11 @@
                 </tr>
             </thead>
             <tbody>
+<<<<<<< HEAD
                 {% for i in range(15) %}
+=======
+                {% for i in range(10) %}
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c
                     <tr>
                         <td><input class="form-control" name="staff" list="staffs" placeholder="Search Staff"></td>
                         <td><input class="form-control" name="subject" list="subjects" placeholder="Search Subject"></td>
@@ -71,6 +78,7 @@
         <button type="submit" class="btn btn-primary">Save Mappings</button>
     </form>
     <hr>
+<<<<<<< HEAD
 
     <p class="text-muted">If staff name is not available in the list, add it here:</p>
     <div class="mb-4">
@@ -92,6 +100,38 @@
         <a href="{{ url_for('admin_dashboard') }}" class="btn btn-secondary">Back to Dashboard</a>
         <a href="{{ url_for('student_login') }}" class="btn btn-light ml-2">Go to Student Feedback Page</a>
     </div>
+=======
+    <h3>Add Students</h3>
+    <form id="addStudentsForm" action="{{ url_for('add_students') }}" method="POST">
+        <div class="form-group">
+            <label for="studentDept">Department:</label>
+            <select class="form-control" name="department" id="studentDept" required>
+                {% for dept in departments %}
+                    <option value="{{ dept }}">{{ dept }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="studentSem">Semester:</label>
+            <select class="form-control" name="semester" id="studentSem" required>
+                {% for sem in semesters %}
+                    <option value="{{ sem }}">{{ sem }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="startReg">Start Registration Number:</label>
+            <input type="text" class="form-control" name="startReg" id="startReg" required>
+        </div>
+        <div class="form-group">
+            <label for="endReg">End Registration Number:</label>
+            <input type="text" class="form-control" name="endReg" id="endReg" required>
+        </div>
+        <button type="submit" class="btn btn-success">Add Students</button>
+    </form>
+    <hr>
+    <a href="{{ url_for('student_login') }}" class="btn btn-light">Go to Student Feedback Page</a>
+>>>>>>> 764d58153c7eaec628ca650e9c89c332e7db408c
     <footer class="mt-4">These site is Created and Managed by GenrecAI. Our Site <a href="https://revolvo-ai.netlify.app" target="_blank">revolvo-ai.netlify.app</a></footer>
     <script>
         setTimeout(function() {
