@@ -5,7 +5,7 @@ STAFFS_FILE = 'staffs.csv'
 SUBJECTS_FILE = 'subjects.csv'
 ADMIN_MAPPING_FILE = 'admin_mapping.csv'
 RATING_FILE = 'ratings.csv'
-STUDENT_FILE = 'student.csv'  # Contains: registerno,department,semester
+STUDENT_FILE = 'students.csv'  # Contains: registerno,department,semester
 MAINRATING_FILE = 'mainrating.csv'  # New aggregated ratings file
 
 # Required CSV files and their headers

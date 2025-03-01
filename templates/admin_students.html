@@ -4,68 +4,396 @@
     <meta charset="utf-8">
     <title>Student Management - Feedback App</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
     <style>
-        body { background: #f0f8ff; }
-        header, footer { background: #007bff; color: #fff; padding: 15px; text-align: center; }
-        footer a { color: #fff; text-decoration: underline; }
+        body {
+            background: linear-gradient(135deg, #f0f8ff 0%, #e6f2ff 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header {
+            background: linear-gradient(90deg, #0062cc 0%, #007bff 100%);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-weight: bold;
+            margin: 0 0 5px 0;
+            font-size: 2rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        .college-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        .main-content {
+            margin-top: 140px;
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 140px);
+        }
+        .content-box {
+            background: rgba(227, 235, 245, 0.9);
+            border: 2px solid #007bff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            width: 100%;
+            max-width: 1200px;
+            position: relative;
+            padding-bottom: 80px;
+            transition: all 0.3s ease;
+        }
+        .content-box:hover {
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        .card-body {
+            padding: 2rem;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-control {
+            border-radius: 8px;
+            padding: 12px;
+            border: 1px solid #ced4da;
+            transition: all 0.3s ease;
+        }
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+        }
+        .nav-and-copyright {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            padding: 0 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .copyright-text {
+            color: #6c757d;
+            font-size: 0.9rem;
+            text-align: left;
+        }
+        .copyright-text a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .copyright-text a:hover {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .back-link {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 16px;
+            border-radius: 20px;
+            background-color: rgba(0, 123, 255, 0.1);
+        }
+        .back-link:hover {
+            color: #0056b3;
+            text-decoration: none;
+            background-color: rgba(0, 123, 255, 0.2);
+        }
+        .back-link i {
+            margin-right: 8px;
+        }
+        .validation-error {
+            color: #dc3545;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+            font-weight: 500;
+        }
+        .btn {
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+        .btn-success {
+            background: linear-gradient(135deg, #28a745 0%, #218838 100%);
+            border: none;
+            box-shadow: 0 4px 6px rgba(40, 167, 69, 0.2);
+        }
+        .btn-success:hover {
+            background: linear-gradient(135deg, #218838 0%, #1e7e34 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(40, 167, 69, 0.3);
+        }
+        .btn-secondary {
+            background: linear-gradient(135deg, #6c757d 0%, #5a6268 100%);
+            border: none;
+            box-shadow: 0 4px 6px rgba(108, 117, 125, 0.2);
+        }
+        .btn-secondary:hover {
+            background: linear-gradient(135deg, #5a6268 0%, #4e555b 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(108, 117, 125, 0.3);
+        }
+        .alert {
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h3 {
+            color: #007bff;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        h3:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(90deg, #007bff, #0056b3);
+            border-radius: 3px;
+        }
+        select.form-control {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23007bff' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: 16px;
+            padding-right: 40px;
+        }
     </style>
 </head>
-<body class="container mt-4">
-    <header><h1>VSB Engineering College - Student Management</h1></header>
+<body>
+    <header>
+        <div class="college-name">VSB ENGINEERING COLLEGE</div>
+        <h1>Student Management</h1>
+    </header>
 
-    {% with messages = get_flashed_messages(with_categories=true) %}
-        {% if messages %}
-            <div id="flash-messages">
-                {% for category, message in messages %}
-                    <div class="alert alert-{{ category }}">{{ message }}</div>
-                {% endfor %}
+    <div class="main-content container">
+        <div class="content-box">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div id="flash-messages">
+                        {% for category, message in messages %}
+                            <div class="alert alert-{{ category }}">{{ message }}</div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+
+            <div class="card">
+                <div class="card-body">
+                    <h3>Add Students</h3>
+                    <div id="addStudentMessage"></div>
+                    <form id="addStudentsForm" action="/admin/add_students" method="POST" onsubmit="return validateForm(event)">
+                        <div class="form-group">
+                            <label for="studentDept"><i class="fas fa-building mr-2"></i>Department:</label>
+                            <select class="form-control" name="department" id="studentDept" required>
+                                {% for dept in departments if dept|trim and dept|lower != "department" %}
+                                    <option value="{{ dept|trim }}" {% if loop.first %}selected{% endif %}>{{ dept|trim }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="studentSem"><i class="fas fa-calendar-alt mr-2"></i>Semester:</label>
+                            <select class="form-control" name="semester" id="studentSem" required>
+                                {% for sem in semesters if sem|trim and sem|lower != "semester" %}
+                                    <option value="{{ sem|trim }}" {% if loop.first %}selected{% endif %}>{{ sem|trim }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="startReg"><i class="fas fa-id-card mr-2"></i>Start Registration Number:</label>
+                            <input type="text" class="form-control" name="startReg" id="startReg" required placeholder="Enter starting registration number">
+                            <div id="startRegError" class="validation-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="endReg"><i class="fas fa-id-card-alt mr-2"></i>End Registration Number:</label>
+                            <input type="text" class="form-control" name="endReg" id="endReg" required placeholder="Enter ending registration number">
+                            <div id="endRegError" class="validation-error"></div>
+                        </div>
+                        <button type="submit" class="btn btn-success" id="submitBtn"><i class="fas fa-user-plus mr-2"></i>Add Students</button>
+                    </form>
+                </div>
             </div>
-        {% endif %}
-    {% endwith %}
 
-    <div class="card mt-4">
-        <div class="card-body">
-            <h3>Add Students</h3>
-            <form id="addStudentsForm" action="{{ url_for('add_students') }}" method="POST">
-                <div class="form-group">
-                    <label for="studentDept">Department:</label>
-                    <select class="form-control" name="department" id="studentDept" required>
-                        {% for dept in departments %}
-                            <option value="{{ dept }}">{{ dept }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="studentSem">Semester:</label>
-                    <select class="form-control" name="semester" id="studentSem" required>
-                        {% for sem in semesters %}
-                            <option value="{{ sem }}">{{ sem }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="startReg">Start Registration Number:</label>
-                    <input type="text" class="form-control" name="startReg" id="startReg" required>
-                </div>
-                <div class="form-group">
-                    <label for="endReg">End Registration Number:</label>
-                    <input type="text" class="form-control" name="endReg" id="endReg" required>
-                </div>
-                <button type="submit" class="btn btn-success">Add Students</button>
-            </form>
+            <div class="text-center mt-4">
+                <a href="{{ url_for('admin_dashboard') }}" class="btn btn-secondary"><i class="fas fa-arrow-left mr-2"></i>Back to Dashboard</a>
+            </div>
+
+            <div class="text-right mt-3">
+                <a href="{{ url_for('student_login') }}" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Back to Student Login
+                </a>
+            </div>
         </div>
     </div>
-
-    <div class="mt-4">
-        <a href="{{ url_for('admin_dashboard') }}" class="btn btn-secondary">Back to Dashboard</a>
+    
+    <div class="copyright-footer">
+        This site is Created and Managed by GenrecAI<br>
+        <a href="https://revolvo-ai.netlify.app" target="_blank">Genrec.AI</a>
     </div>
-
-    <footer class="mt-4">These site is Created and Managed by GenrecAI. Our Site <a href="https://revolvo-ai.netlify.app" target="_blank">revolvo-ai.netlify.app</a></footer>
+    
     <script>
-        setTimeout(function() {
-            var flash = document.getElementById('flash-messages');
-            if (flash) { flash.style.display = 'none'; }
-        }, 3000);
+        document.addEventListener("DOMContentLoaded", function() {
+            var deptSelect = document.getElementById('studentDept');
+            var semSelect = document.getElementById('studentSem');
+            if(deptSelect && deptSelect.value === "") {
+                if(deptSelect.options.length > 1) {
+                    deptSelect.value = deptSelect.options[1].value;
+                }
+            }
+            if(semSelect && semSelect.value === "") {
+                if(semSelect.options.length > 1) {
+                    semSelect.value = semSelect.options[1].value;
+                }
+            }
+            
+            // Add animation to form elements
+            const formElements = document.querySelectorAll('.form-control, .btn');
+            formElements.forEach((element, index) => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                
+                setTimeout(() => {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }, 100 + (index * 100));
+            });
+            
+            // Auto-hide flash messages
+            setTimeout(function() {
+                const flashMessages = document.getElementById('flash-messages');
+                if (flashMessages) {
+                    const alerts = flashMessages.querySelectorAll('.alert');
+                    alerts.forEach(alert => {
+                        alert.style.opacity = '0';
+                        alert.style.transform = 'translateY(-10px)';
+                        setTimeout(() => {
+                            alert.style.display = 'none';
+                        }, 500);
+                    });
+                }
+            }, 5000);
+        });
+        
+        function validateForm(event) {
+            event.preventDefault();
+            
+            const startReg = document.getElementById('startReg').value;
+            const endReg = document.getElementById('endReg').value;
+            const startRegError = document.getElementById('startRegError');
+            const endRegError = document.getElementById('endRegError');
+            let isValid = true;
+
+            // Clear previous error messages
+            startRegError.textContent = '';
+            endRegError.textContent = '';
+            
+            if (!/^\d+$/.test(startReg)) {
+                startRegError.textContent = 'Please enter a valid numeric registration number';
+                isValid = false;
+            }
+            
+            if (!/^\d+$/.test(endReg)) {
+                endRegError.textContent = 'Please enter a valid numeric registration number';
+                isValid = false;
+            }
+            
+            if (isValid) {
+                const startNum = parseInt(startReg);
+                const endNum = parseInt(endReg);
+                
+                if (startNum > endNum) {
+                    endRegError.textContent = 'End registration number must be greater than or equal to start number';
+                    isValid = false;
+                }
+                
+                if ((endNum - startNum) > 120) {
+                    endRegError.textContent = 'Range cannot exceed 120 students';
+                    isValid = false;
+                }
+            }
+            
+            if (isValid) {
+                const submitBtn = document.getElementById('submitBtn');
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Processing...';
+                submitBtn.disabled = true;
+                
+                const formData = new FormData(document.getElementById('addStudentsForm'));
+                fetch('/admin/add_students', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    const messageDiv = document.getElementById('addStudentMessage');
+                    messageDiv.innerHTML = `<div class="alert alert-${data.success ? 'success' : 'danger'} mt-2">
+                        <i class="fas fa-${data.success ? 'check-circle' : 'exclamation-circle'} mr-2"></i>${data.message}
+                    </div>`;
+                    if (data.success) {
+                        document.getElementById('addStudentsForm').reset();
+                    }
+                    submitBtn.innerHTML = '<i class="fas fa-user-plus mr-2"></i>Add Students';
+                    submitBtn.disabled = false;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    const messageDiv = document.getElementById('addStudentMessage');
+                    messageDiv.innerHTML = '<div class="alert alert-danger mt-2"><i class="fas fa-exclamation-triangle mr-2"></i>An error occurred while processing your request.</div>';
+                    submitBtn.innerHTML = '<i class="fas fa-user-plus mr-2"></i>Add Students';
+                    submitBtn.disabled = false;
+                });
+            }
+            return false;
+        }
     </script>
 </body>
 </html>

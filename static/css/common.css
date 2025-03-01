@@ -1,0 +1,85 @@
+/* Common styles */
+.copyright-footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-top: auto;
+    width: 100%;
+    background: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.copyright-footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.copyright-footer a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Improved select styling */
+select.form-control {
+    height: 38px !important; /* Fixed height for better consistency */
+    width: 100% !important;
+    padding: 6px 12px !important;
+    background-color: #fff !important;
+    -webkit-appearance: menulist !important; /* Revert to native dropdown appearance */
+    -moz-appearance: menulist !important;
+    appearance: menulist !important;
+    border: 2px solid #007bff !important; /* Bolder border with brand color */
+    border-radius: 6px !important;
+    font-size: 16px !important; /* Larger font size */
+    font-weight: 600 !important; /* Bolder text */
+    line-height: 1.5 !important;
+    color: #000000 !important; /* Black text for maximum contrast */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+    text-align: center !important;
+}
+
+select.form-control:focus {
+    border-color: #0056b3 !important; /* Darker blue on focus */
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.4) !important; /* More visible focus shadow */
+}
+
+select.form-control option {
+    padding: 10px !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    font-size: 16px !important;
+}
+
+/* Add a highlight effect for selected option */
+select.form-control option:checked {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* Additional styling for the table cells containing selects */
+.rating-table td select.form-control {
+    min-width: 60px !important;
+    max-width: 80px !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/* Ensure content doesn't overlap with copyright */
+.main-content {
+    margin-bottom: 100px !important;
+}
+
+/* Remove any existing copyright styles from content boxes */
+.content-box .copyright-text,
+.nav-and-copyright .copyright-text {
+    display: none;
+}

@@ -1,521 +1,529 @@
 registerno,department,semester,staff,subject,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,average
-922523244007,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,6.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.10
-922523244007,Computer Science and Business Systems,4,Pavithra,Database Management Systems,5.00,4.00,3.00,2.00,1.00,5.00,4.00,3.00,2.00,1.00,3.00
-922523244007,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,6.00,6.00,6.00,6.00,5.00,6.00,6.00,6.00,5.00,6.00,5.80
-922523244007,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244007,Computer Science and Business Systems,4,Manonmani,Machine Learning,4.00,5.00,5.00,5.00,5.00,6.00,6.00,5.00,6.00,5.00,5.20
-922523244007,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,7.00,8.00,6.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
-922523244007,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,1.00,1.00,3.00,2.00,2.00,3.00,1.00,2.00,3.00,1.00,1.90
-922523244007,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,4.00,5.00,5.00,6.00,5.00,4.00,4.00,6.00,5.00,5.00,4.90
-922523244007,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,7.00,5.00,6.00,5.00,3.00,6.00,5.00,7.00,4.00,5.60
-922523244007,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,4.00,6.00,7.00,6.00,4.00,4.00,7.00,7.00,7.00,8.00,6.00
-922523244036,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244036,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,8.00,10.00,8.00,8.00,9.00,10.00,10.00,8.00,8.00,8.80
-922523244036,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244036,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244036,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244036,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,8.00,9.00,6.00,5.00,8.00,8.00,9.00,10.00,10.00,8.00
-922523244036,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,9.90
-922523244036,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244036,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,9.00,7.00,6.00,6.00,3.00,7.00,8.00,10.00,9.00,7.30
-922523244036,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244038,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244038,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244038,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244038,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244038,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244038,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244038,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244038,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244038,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244038,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244022,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,6.00,6.00,6.00,6.00,6.00,7.00,7.00,7.00,7.00,7.00,6.50
-922523244022,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244022,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244022,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244022,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
-922523244022,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244022,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,8.00,8.00,9.00,9.00,9.00,8.00,8.00,8.00,9.00,8.40
-922523244022,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,8.00,9.00,8.00,9.00,8.00,9.00,8.00,9.00,8.00,8.50
-922523244022,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244022,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,9.90
-922523244023,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,9.00,8.00,8.00,9.00,8.00,9.00,8.00,9.00,9.00,8.50
-922523244023,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,5.00,6.00,7.00,8.00,8.00,8.00,7.00,8.00,7.00
-922523244023,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,7.00,7.00,8.00,7.00,8.00,7.00,8.00,8.00,8.00,6.00,7.40
-922523244023,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,5.00,6.00,3.00,5.00,6.00,4.00,6.00,7.00,5.00,6.00,5.30
-922523244023,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,9.00,7.00,8.00,9.00,8.00,8.00,9.00,8.00,8.20
-922523244023,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,6.00,8.00,9.00,8.00,9.00,7.00,8.00,9.00,8.00,9.00,8.10
-922523244023,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,6.00,7.00,6.00,8.00,6.00,6.00,7.00,7.00,8.00,6.80
-922523244023,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,9.00,10.00,9.00,10.00,9.00,10.00,10.00,9.00,10.00,9.60
-922523244023,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,6.00,6.00,7.00,7.00,6.00,6.00,7.00,6.00,6.00,6.40
-922523244023,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,7.00,8.00,9.00,10.00,7.00,8.00,7.00,8.00,8.00
-922523244047,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,5.00,6.00,5.00,6.00,5.00,6.00,5.00,5.00,5.00,5.30
-922523244047,Computer Science and Business Systems,4,Pavithra,Database Management Systems,2.00,1.00,1.00,2.00,3.00,2.00,1.00,3.00,2.00,2.00,1.90
-922523244047,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,8.00,8.00,8.00,8.00,8.00,8.00,9.00,8.00,8.00,8.20
-922523244047,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,3.00,4.00,2.00,4.00,3.00,3.00,1.00,2.00,1.00,3.00,2.60
-922523244047,Computer Science and Business Systems,4,Manonmani,Machine Learning,6.00,7.00,7.00,6.00,7.00,7.00,7.00,6.00,7.00,6.00,6.60
-922523244047,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,10.00,9.00,9.00,10.00,10.00,9.00,10.00,9.40
-922523244047,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,5.00,5.00,6.00,6.00,5.00,6.00,3.00,3.00,3.00,3.00,4.50
-922523244047,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,8.00,8.00,7.00,9.00,6.00,8.00,9.00,8.00,8.00,8.00
-922523244047,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,6.00,7.00,7.00,6.00,6.00,8.00,7.00,7.00,8.00,6.90
-922523244047,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,7.00,8.00,7.00,8.00,7.00,8.00,6.00,8.00,6.00,7.20
-922523244008,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,5.00,3.00,3.00,4.00,4.00,4.00,5.00,6.00,4.00,4.30
-922523244008,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244008,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244008,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244008,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244008,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,8.00,10.00,9.70
-922523244008,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244008,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244008,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244008,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244004,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,7.00,8.00,7.00,7.00,9.00,7.00,8.00,7.00,9.00,7.60
-922523244004,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,9.00,9.00,8.00,9.00,10.00,9.00,9.00,9.00,10.00,9.10
-922523244004,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.00,10.00,9.00,9.70
-922523244004,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,9.00,9.00,9.00,8.00,9.00,8.00,9.00,9.00,8.00,9.00,8.70
-922523244004,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,10.00,8.00,10.00,10.00,8.00,9.00,10.00,8.00,9.10
-922523244004,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,9.00,10.00,9.00,9.00,9.00,8.00,9.00,10.00,9.00,9.20
-922523244004,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,8.00,9.00,10.00,10.00,7.00,9.00,10.00,10.00,9.30
-922523244004,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,9.00,9.00,10.00,9.00,10.00,9.00,9.00,10.00,9.50
-922523244004,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,9.00,8.00,8.00,10.00,9.00,9.00,9.00,10.00,10.00,9.20
-922523244004,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,9.00,9.00,10.00,10.00,10.00,8.00,9.00,10.00,9.00,9.20
-922523244055,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244055,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,7.00,7.00,6.00,7.00,7.00,7.00,7.00,8.00,6.90
-922523244055,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
-922523244055,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,6.00,7.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.10
-922523244055,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,8.00,8.00,9.00,9.00,8.00,9.00,9.00,8.00,8.40
-922523244055,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,8.00,7.00,8.00,8.00,9.00,8.00,8.00,8.00,8.20
-922523244055,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,7.00,9.00,7.00,8.00,9.00,8.00,9.00,8.00,8.00,8.10
-922523244055,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,9.00,8.00,9.00,8.00,9.00,8.00,8.00,8.00,10.00,8.40
-922523244055,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,8.00,9.00,9.00,9.00,9.00,8.00,9.00,9.00,9.00,8.80
-922523244055,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
-922523244013,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,7.00,8.00,8.00,9.00,6.00,8.00,8.00,8.00,7.00,7.70
-922523244013,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,8.00,8.00,9.00,10.00,9.00,10.00,9.00,10.00,9.00,9.10
-922523244013,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,9.00,8.00,8.00,8.00,8.00,9.00,8.00,9.00,9.00,8.40
-922523244013,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,7.00,6.00,7.00,6.00,8.00,8.00,7.00,8.00,8.00,7.00,7.20
-922523244013,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,7.00,8.00,9.00,8.00,9.00,10.00,7.00,7.00,8.00,8.10
-922523244013,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,7.00,7.00,8.00,8.00,8.00,6.00,6.00,8.00,7.00,7.30
-922523244013,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,7.00,8.00,7.00,8.00,7.00,9.00,9.00,8.00,9.00,8.00
-922523244013,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,9.00,10.00,8.00,9.00,7.00,9.00,9.00,8.00,10.00,8.70
-922523244013,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,8.00,9.00,9.00,8.00,7.00,9.00,8.00,8.00,9.00,8.30
-922523244013,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,9.00,8.00,9.00,7.00,9.00,8.00,8.00,7.00,8.00,8.20
-922523244046,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,8.00,7.00,8.00,7.00,7.00,7.00,4.00,8.00,10.00,7.10
-922523244046,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,5.00,5.00,7.00,8.00,5.00,6.00,7.00,6.00,10.00,6.70
-922523244046,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,4.00,6.00,7.00,7.00,6.00,8.00,6.00,7.00,8.00,9.00,6.80
-922523244046,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,4.00,5.00,8.00,7.00,8.00,4.00,2.00,6.00,7.00,9.00,6.00
-922523244046,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,7.00,8.00,6.00,8.00,8.00,9.00,6.00,8.00,5.00,7.20
-922523244046,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,7.00,7.00,7.00,6.00,9.00,5.00,5.00,8.00,10.00,7.20
-922523244046,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,5.00,6.00,6.00,8.00,5.00,6.00,7.00,8.00,9.00,6.70
-922523244046,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,8.00,8.00,8.00,8.00,8.00,10.00,9.00,7.00,10.00,8.30
-922523244046,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,6.00,8.00,6.00,9.00,5.00,9.00,7.00,5.00,4.00,10.00,6.90
-922523244046,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,4.00,6.00,3.00,7.00,8.00,7.00,7.00,6.00,6.00,10.00,6.40
-922523244034,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,6.00,7.00,6.00,6.00,5.00,7.00,5.00,5.00,5.00,5.70
-922523244034,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,8.00,5.00,5.00,5.00,6.00,7.00,5.00,6.00,7.00,6.10
-922523244034,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,5.00,6.00,6.00,7.00,7.00,5.00,8.00,7.00,7.00,5.00,6.30
-922523244034,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244034,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,5.00,8.00,7.00,6.00,5.00,9.00,8.00,7.00,8.00,7.10
-922523244034,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,8.00,7.00,9.00,8.00,7.00,8.00,9.00,7.00,6.00,7.60
-922523244034,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,4.00,6.00,5.00,4.00,8.00,7.00,5.00,9.00,7.00,6.00,6.10
-922523244034,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,8.00,7.00,7.00,4.00,10.00,9.00,9.00,9.00,8.30
-922523244034,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,1.00,2.00,2.00,1.00,3.00,4.00,2.00,3.00,3.00,4.00,2.50
-922523244034,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,6.00,4.00,9.00,7.00,8.00,7.00,8.00,8.00,6.00,9.00,7.20
-922523244026,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244026,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,7.00,7.00,7.00,6.00,7.00,7.00,6.00,6.00,6.60
-922523244026,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244026,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,6.00,6.00,7.00,6.00,7.00,6.00,6.00,6.00,7.00,6.00,6.30
-922523244026,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.40
-922523244026,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,8.00,9.00,9.00,9.00,9.00,9.00,8.00,8.80
-922523244026,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,6.00,6.00,6.00,7.00,7.00,7.00,6.00,6.00,7.00,6.40
-922523244026,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,9.00,8.00,8.00,8.00,9.00,8.00,8.00,8.00,8.00,8.20
-922523244026,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,9.00,8.00,9.00,9.00,8.00,8.00,8.00,9.00,9.00,8.60
-922523244026,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244056,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,6.00,8.00,7.00,8.00,7.00,7.00,8.00,8.00,8.00,8.00,7.50
-922523244056,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,5.00,5.00,7.00,6.00,8.00,8.00,7.00,7.00,8.00,6.90
-922523244056,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,6.00,6.00,7.00,7.00,7.00,6.00,8.00,6.00,8.00,7.00,6.80
-922523244056,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,8.00,5.00,8.00,7.00,8.00,7.00,8.00,8.00,9.00,8.00,7.60
-922523244056,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,7.00,8.00,8.00,8.00,8.00,8.00,7.00,7.00,9.00,7.70
-922523244056,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,8.00,7.00,7.00,7.00,7.00,8.00,8.00,8.00,8.00,7.70
-922523244056,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,4.00,6.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00,7.20
-922523244056,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,8.00,8.00,8.00,7.00,8.00,7.00,8.00,9.00,8.00,7.80
-922523244056,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,6.00,8.00,6.00,7.00,6.00,8.00,8.00,8.00,9.00,8.00,7.40
-922523244056,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,6.00,7.00,6.00,6.00,8.00,7.00,8.00,7.00,8.00,7.10
-922523244049,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,5.00,1.00,9.00,1.00,10.00,8.00,9.00,1.00,10.00,6.40
-922523244049,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244049,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244049,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244049,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,10.00,9.00,9.00,5.00,2.00,2.00,5.00,6.00,6.60
-922523244049,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,5.00,2.00,5.00,5.00,8.00,9.00,6.00,7.00,6.50
-922523244049,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244049,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,9.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,9.80
-922523244049,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244049,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244050,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,9.00,7.00,7.00,8.00,8.00,8.00,7.00,7.00,8.00,7.60
-922523244050,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,8.00,8.00,8.00,8.00,8.00,8.00,9.00,8.00,8.00,8.10
-922523244050,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,9.00,8.00,9.00,9.00,8.00,7.00,8.00,9.00,8.00,8.30
-922523244050,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.10
-922523244050,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,8.00,9.00,8.00,8.00,9.00,8.00,8.00,8.00,7.00,8.20
-922523244050,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,7.00,7.00,8.00,7.00,6.00,7.00,7.00,8.00,8.00,7.30
-922523244050,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,9.00,8.00,8.10
-922523244050,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,7.00,7.80
-922523244050,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,9.00,9.00,10.00,10.00,10.00,10.00,9.00,10.00,9.00,9.50
-922523244050,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,8.00,8.00,9.00,8.00,8.00,9.00,8.00,8.00,8.00,8.30
-922523244009,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,6.00,7.00,5.00,5.00,8.00,3.00,2.00,2.00,3.00,4.00,4.50
-922523244009,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,8.00,8.00,7.00,8.00,5.00,8.00,8.00,7.00,7.20
-922523244009,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,4.00,4.00,7.00,6.00,6.00,5.00,4.00,6.00,5.00,6.00,5.30
-922523244009,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244009,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,8.00,7.00,8.00,7.00,9.00,8.00,7.00,7.00,8.00,7.60
-922523244009,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,6.00,6.00,7.00,8.00,8.00,7.00,8.00,7.00,7.00,8.00,7.20
-922523244009,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,7.00,6.00,7.00,7.00,6.00,7.00,6.00,7.00,7.00,6.70
-922523244009,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,7.00,8.00,9.00,8.00,9.00,8.00,9.00,8.00,9.00,8.30
-922523244009,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244009,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,6.00,6.00,6.00,7.00,8.00,9.00,9.00,9.00,9.00,9.00,7.80
-922523244037,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,9.00,8.00,10.00,7.00,8.00,3.00,7.00,9.00,8.00,7.90
-922523244037,Computer Science and Business Systems,4,Pavithra,Database Management Systems,6.00,7.00,6.00,7.00,6.00,8.00,3.00,6.00,7.00,3.00,5.90
-922523244037,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,7.00,8.00,3.00,7.00,6.00,8.00,7.00,4.00,2.00,6.00,5.80
-922523244037,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244037,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,8.00,8.00,7.00,8.00,7.00,8.00,9.00,8.00,8.30
-922523244037,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,5.00,8.00,5.00,6.00,7.00,6.00,3.00,5.00,6.10
-922523244037,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,5.00,6.00,5.00,4.00,8.00,2.00,2.00,5.00,1.00,3.00,4.10
-922523244037,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,10.00,9.00,8.00,7.00,10.00,10.00,6.00,7.00,6.00,8.20
-922523244037,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,10.00,6.00,10.00,9.00,8.00,10.00,4.00,8.00,8.00,8.10
-922523244037,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,9.00,6.00,8.00,6.00,3.00,7.00,3.00,7.00,9.00,6.80
-922523244053,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,9.00,9.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.30
-922523244053,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,8.00,8.00,8.00,9.00,8.00,9.00,8.00,9.00,9.00,8.40
-922523244053,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.00,9.00,8.00,9.50
-922523244053,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,9.00,9.00,9.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.40
-922523244053,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,9.00,10.00,9.00,9.00,9.00,9.00,9.50
-922523244053,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,9.00,9.00,8.00,8.00,8.00,8.00,8.00,8.50
-922523244053,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.10
-922523244053,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,9.00,9.00,8.00,9.00,8.00,9.00,9.00,8.80
-922523244053,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244053,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,9.00,9.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.30
-922523244016,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,4.00,6.00,5.00,6.00,6.00,6.00,3.00,7.00,5.00,6.00,5.40
-922523244016,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,4.00,5.00,7.00,7.00,5.00,6.00,6.00,6.00,5.90
-922523244016,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,7.00,7.00,5.00,6.00,8.00,7.00,7.00,7.00,6.00,7.00,6.70
-922523244016,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,2.00,3.00,2.00,3.00,4.00,5.00,2.00,3.00,3.00,3.00,3.00
-922523244016,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,7.00,9.00,8.00,9.00,8.00,8.00,7.00,8.00,8.00
-922523244016,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,7.00,5.00,8.00,7.00,7.00,8.00,7.00,7.00,7.00,7.10
-922523244016,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,5.00,5.00,7.00,7.00,6.00,6.00,5.00,6.00,7.00,6.00
-922523244016,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,7.00,5.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00,7.50
-922523244016,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,7.00,5.00,7.00,7.00,7.00,8.00,7.00,7.00,7.00,6.90
-922523244016,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,7.00,5.00,8.00,8.00,7.00,8.00,8.00,7.00,7.00,7.20
-922523244024,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244024,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244024,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244024,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244024,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244024,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244024,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244024,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244024,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244024,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244061,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,4.00,4.00,3.00,4.00,4.00,5.00,4.00,3.00,5.00,5.00,4.10
-922523244061,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,5.00,4.00,5.00,6.00,6.00,6.00,5.00,6.00,6.00,5.60
-922523244061,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,5.00,7.00,5.00,6.00,7.00,6.00,8.00,6.00,7.00,6.00,6.30
-922523244061,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,3.00,3.00,3.00,3.00,2.00,1.00,2.00,2.00,2.00,2.00,2.30
-922523244061,Computer Science and Business Systems,4,Manonmani,Machine Learning,4.00,5.00,4.00,7.00,6.00,7.00,6.00,5.00,6.00,7.00,5.70
-922523244061,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,5.00,6.00,4.00,8.00,6.00,7.00,6.00,6.00,5.00,6.00,5.90
-922523244061,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,7.00,6.00,7.00,5.00,6.00,6.00,6.00,7.00,6.00,6.20
-922523244061,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,7.00,6.00,6.00,5.00,6.00,6.00,6.00,7.00,5.00,6.10
-922523244061,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,5.00,6.00,5.00,7.00,6.00,6.00,6.00,6.00,5.00,6.00,5.80
-922523244061,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,6.00,7.00,7.00,7.00,6.00,7.00,7.00,6.00,7.00,7.00,6.70
-922523244044,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,8.00,8.00,9.00,10.00,7.00,6.00,7.00,6.00,7.00,7.60
-922523244044,Computer Science and Business Systems,4,Pavithra,Database Management Systems,4.00,6.00,9.00,8.00,7.00,9.00,7.00,9.00,8.00,7.00,7.40
-922523244044,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,6.00,5.00,7.00,7.00,5.00,8.00,10.00,10.00,7.00,7.50
-922523244044,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,4.00,3.00,4.00,6.00,5.00,5.00,6.00,5.00,2.00,3.00,4.30
-922523244044,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,8.00,8.00,7.00,7.00,8.00,7.00,8.00,7.00,9.00,7.60
-922523244044,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,6.00,6.00,7.00,7.00,8.00,8.00,7.00,7.00,7.00,7.00
-922523244044,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,6.00,7.00,9.00,8.00,8.00,7.00,7.00,8.00,9.00,7.50
-922523244044,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,5.00,6.00,7.00,7.00,8.00,7.00,6.00,7.00,8.00,7.00
-922523244044,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,6.00,4.00,2.00,6.00,2.00,4.00,4.00,3.00,3.00,4.20
-922523244044,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,4.00,8.00,6.00,6.00,6.00,6.00,6.00,8.00,8.00,6.50
-922523244039,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.00,9.00,8.00,9.50
-922523244039,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244039,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,10.00,10.00,9.00,9.00,9.00,8.00,9.00,10.00,10.00,9.30
-922523244039,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,8.00,8.00,9.00,9.00,9.00,9.00,9.00,10.00,10.00,10.00,9.10
-922523244039,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,10.00,9.00,9.00,10.00,10.00,9.00,10.00,9.00,10.00,9.50
-922523244039,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,10.00,9.00,9.00,9.00,9.00,9.00,8.00,9.00,9.00,9.00
-922523244039,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244039,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,10.00,9.00,10.00,10.00,10.00,10.00,9.00,9.00,9.00,9.50
-922523244039,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,9.00,9.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,9.70
-922523244039,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,9.00,8.00,10.00,8.00,9.00,10.00,10.00,9.00,9.30
-922523244045,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,6.00,7.00,7.00,4.00,3.00,4.00,3.00,3.00,3.00,3.00,4.30
-922523244045,Computer Science and Business Systems,4,Pavithra,Database Management Systems,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00
-922523244045,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,7.00,7.00,7.00,7.00,8.00,8.00,7.00,8.00,6.00,6.00,7.10
-922523244045,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244045,Computer Science and Business Systems,4,Manonmani,Machine Learning,6.00,7.00,9.00,9.00,9.00,9.00,8.00,9.00,8.00,7.00,8.10
-922523244045,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244045,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
-922523244045,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
-922523244045,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244045,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244048,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,9.00,9.00,8.00,8.00,8.00,9.00,9.00,8.00,6.00,10.00,8.40
-922523244048,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
-922523244048,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,4.00,6.00,7.00,8.00,5.00,6.00,3.00,6.00,3.00,3.00,5.10
-922523244048,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,7.00,8.00,6.00,7.00,6.00,7.00,7.00,6.00,6.00,7.00,6.70
-922523244048,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244048,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,7.00,6.00,5.00,6.00,6.00,7.00,9.00,6.00,7.00,6.70
-922523244048,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,9.00,8.00,8.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,8.80
-922523244048,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,9.00,9.00,9.00,8.00,8.00,8.00,8.00,8.60
-922523244048,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,8.00,10.00,7.00,8.00,8.00,7.00,9.00,9.00,9.00,8.40
-922523244048,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,6.00,7.00,8.00,6.00,5.00,6.00,5.00,4.00,6.00,3.00,5.60
-922523244002,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,9.90
-922523244002,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244002,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244002,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,9.90
-922523244002,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,9.00,8.00,10.00,9.00,9.60
-922523244002,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,9.00,10.00,10.00,9.00,10.00,10.00,9.00,10.00,9.70
-922523244002,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244002,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,9.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,9.80
-922523244002,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244002,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244030,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,6.00,5.00,4.00,3.00,5.00,5.00,6.00,6.00,5.00,5.00
-922523244030,Computer Science and Business Systems,4,Pavithra,Database Management Systems,2.00,3.00,4.00,3.00,2.00,3.00,2.00,1.00,3.00,3.00,2.60
-922523244030,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,1.00,1.00,2.00,3.00,3.00,1.00,4.00,2.00,2.00,1.00,2.00
-922523244030,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,2.00,1.00,1.00,1.10
-922523244030,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,7.00,9.00,8.00,7.00,8.00,6.00,7.00,9.00,8.00,7.60
-922523244030,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,9.00,7.00,7.00,7.00,7.00,8.00,6.00,8.00,9.00,7.50
-922523244030,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,3.00,2.00,3.00,2.00,2.00,4.00,1.00,3.00,3.00,3.00,2.60
-922523244030,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,8.00,8.00,9.00,9.00,9.00,8.00,10.00,8.00,9.00,8.70
-922523244030,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,6.00,6.00,5.00,7.00,8.00,8.00,7.00,8.00,7.00,6.00,6.80
-922523244030,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,2.00,2.00,2.00,2.00,3.00,3.00,2.00,1.00,1.00,3.00,2.10
-922523244035,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,9.00,9.00,8.00,8.00,8.00,8.00,7.00,7.00,7.00,8.10
-922523244035,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,7.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.10
-922523244035,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,6.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,7.90
-922523244035,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,9.00,6.00,7.00,8.00,8.00,9.00,9.00,8.00,8.00,8.00,8.00
-922523244035,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,9.00,8.00,8.00,8.00,9.00,8.00,8.00,9.00,8.30
-922523244035,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,9.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.20
-922523244035,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,7.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.20
-922523244035,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244035,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,7.00,9.00,9.00,8.00,9.00,9.00,8.00,8.00,9.00,8.40
-922523244035,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,7.00,9.00,8.00,8.00,8.00,9.00,9.00,9.00,9.00,8.60
-922523244032,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,9.00,10.00,8.00,10.00,10.00,9.00,9.00,8.00,9.00,7.00,8.90
-922523244032,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,10.00,8.00,8.00,10.00,10.00,9.00,9.00,9.00,9.00,9.10
-922523244032,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,8.00,8.00,8.00,9.00,9.00,9.00,9.00,8.00,8.00,8.50
-922523244032,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,8.00,9.00,9.00,9.00,9.00,10.00,9.00,8.00,8.00,9.00,8.80
-922523244032,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,8.00,9.00,9.00,9.00,9.00,7.00,8.00,8.00,8.00,8.20
-922523244032,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,9.00,9.00,7.00,7.00,10.00,10.00,8.00,7.00,9.00,8.40
-922523244032,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,9.00,8.00,10.00,7.00,9.00,8.00,8.00,8.00,9.00,6.00,8.20
-922523244032,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,10.00,8.00,10.00,8.00,9.00,9.00,8.00,10.00,9.00
-922523244032,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,10.00,10.00,10.00,9.00,8.00,9.00,10.00,10.00,10.00,9.50
-922523244032,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,10.00,8.00,8.00,7.00,8.00,9.00,9.00,9.00,8.00,8.50
-922523244003,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,8.00,10.00,9.00,8.00,8.00,8.00,8.00,10.00,8.90
-922523244003,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,8.00,8.00,9.00,9.00,8.00,8.00,8.00,8.00,7.00,8.30
-922523244003,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,8.00,8.00,8.00,9.00,8.00,7.00,8.00,8.00,8.00,8.00
-922523244003,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,8.00,7.00,8.00,8.00,9.00,8.00,8.00,8.00,8.00,7.00,7.90
-922523244003,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,9.00,8.00,8.00,9.00,8.00,9.00,8.00,8.00,8.00,8.50
-922523244003,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,8.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.10
-922523244003,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,8.00,8.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.30
-922523244003,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,8.00,8.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.30
-922523244003,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,8.00,8.00,8.00,9.00,9.00,9.00,8.00,8.00,8.00,8.30
-922523244003,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,8.00,8.00,8.00,9.00,9.00,9.00,8.00,8.00,8.00,8.40
-922523244005,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,8.00,8.00,8.00,7.00,4.00,9.00,10.00,9.00,8.00,7.90
-922523244005,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,8.00,7.00,8.00,8.00,3.00,9.00,10.00,8.00,8.00,7.70
-922523244005,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,7.00,8.00,7.00,7.00,8.00,3.00,8.00,10.00,7.00,8.00,7.30
-922523244005,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,3.00,6.00,7.00,7.00,6.00,3.00,5.00,10.00,9.00,7.00,6.30
-922523244005,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,9.00,9.00,9.00,9.00,3.00,9.00,10.00,9.00,8.00,8.30
-922523244005,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,9.00,6.00,9.00,9.00,5.00,9.00,10.00,8.00,8.00,8.10
-922523244005,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,8.00,7.00,8.00,8.00,3.00,8.00,10.00,9.00,7.00,7.60
-922523244005,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,8.00,9.00,9.00,9.00,3.00,9.00,10.00,10.00,8.00,8.30
-922523244005,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,6.00,8.00,2.00,5.00,6.00,3.00,4.00,9.00,4.00,8.00,5.50
-922523244005,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,2.00,5.00,7.00,3.00,8.00,10.00,7.00,8.00,6.60
-922523244010,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,9.90
-922523244010,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244010,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,9.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,9.80
-922523244010,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,10.00,9.00,9.00,8.00,10.00,10.00,9.60
-922523244010,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244010,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,9.00,8.00,10.00,9.00,10.00,9.00,10.00,10.00,10.00,9.50
-922523244010,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,9.00,10.00,10.00,10.00,9.00,10.00,9.00,9.00,10.00,10.00,9.60
-922523244010,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,9.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,9.80
-922523244010,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,9.80
-922523244010,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,8.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,9.70
-922523244040,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,9.00,9.00,9.00,10.00,9.00,9.00,8.00,10.00,8.00,10.00,9.10
-922523244040,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,10.00,9.00,9.00,9.00,9.00,9.00,10.00,9.00,10.00,9.30
-922523244040,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,9.00,10.00,9.00,10.00,9.00,9.00,9.00,9.00,9.00,9.30
-922523244040,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,6.00,9.00,7.00,8.00,6.00,9.00,7.00,10.00,6.00,10.00,7.80
-922523244040,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,9.00,9.00,9.00,10.00,9.00,8.00,9.00,9.00
-922523244040,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,7.00,8.00,9.00,9.00,10.00,8.00,9.00,9.00,8.90
-922523244040,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,9.00,9.00,9.00,9.00,10.00,9.00,9.00,10.00,9.00,8.00,9.10
-922523244040,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,8.00,10.00,10.00,9.00,9.00,9.00,10.00,8.00,9.10
-922523244040,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,9.00,10.00,9.00,10.00,9.00,8.00,9.00,10.00,9.00,9.20
-922523244040,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,9.00,9.00,10.00,9.00,9.00,9.00,8.00,8.00,9.10
-922523244020,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,3.00,7.00,7.00,5.00,4.00,9.00,3.00,3.00,4.00,3.00,4.80
-922523244020,Computer Science and Business Systems,4,Pavithra,Database Management Systems,4.00,3.00,4.00,4.00,6.00,7.00,5.00,3.00,3.00,4.00,4.30
-922523244020,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,5.00,6.00,6.00,7.00,4.00,7.00,7.00,4.00,4.00,4.00,5.40
-922523244020,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,6.00,7.00,7.00,7.00,8.00,7.00,7.00,7.00,7.00,7.00,7.00
-922523244020,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,7.00,7.00,8.00,8.00,7.00,8.00,8.00,8.00,7.70
-922523244020,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,7.00,7.00,7.00,8.00,8.00,5.00,7.00,7.00,7.20
-922523244020,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,6.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.20
-922523244020,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00,8.00,8.00,7.90
-922523244020,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244020,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244001,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,7.00,10.00,4.00,6.00,6.00,5.00,8.00,9.00,9.00,7.10
-922523244001,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,9.00,8.00,7.00,9.00,9.00,9.00,8.00,8.00,7.00,8.30
-922523244001,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,8.00,8.00,9.00,9.00,9.00,9.00,8.00,7.00,7.00,8.30
-922523244001,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
-922523244001,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,8.00,8.00,9.00,9.00,8.00,9.00,9.00,9.00,10.00,8.80
-922523244001,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,10.00,10.00,10.00,9.00,9.00,10.00,7.00,10.00,9.00,9.30
-922523244001,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,9.00,9.00,8.00,10.00,9.00,10.00,8.00,7.00,9.00,8.70
-922523244001,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,9.00,8.00,9.00,9.00,8.00,9.30
-922523244001,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244001,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,9.00,9.00,8.00,9.00,9.00,7.00,6.00,9.00,3.00,7.90
-922523244011,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,9.00,10.00,7.00,10.00,7.00,10.00,6.00,9.00,5.00,8.30
-922523244011,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,5.00,4.00,7.00,1.00,1.00,3.00,5.00,1.00,4.00
-922523244011,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,7.00,10.00,9.00,10.00,10.00,7.00,10.00,9.00,10.00,9.20
-922523244011,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,7.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,8.00,4.00,8.80
-922523244011,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,8.00,10.00,9.00,10.00,10.00,8.00,8.00,10.00,10.00,9.30
-922523244011,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,8.00,10.00,9.00,10.00,10.00,8.00,5.00,10.00,8.80
-922523244011,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,7.00,7.00,5.00,7.00,1.00,6.00,3.00,6.00,5.00,5.30
-922523244011,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,7.00,9.00,9.00,10.00,10.00,9.00,10.00,10.00,10.00,9.40
-922523244011,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,8.00,10.00,10.00,10.00,10.00,10.00,10.00,7.00,10.00,9.40
-922523244011,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,9.00,8.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.70
-922523244014,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,6.00,5.00,5.00,7.00,4.00,4.00,7.00,7.00,6.00,5.60
-922523244014,Computer Science and Business Systems,4,Pavithra,Database Management Systems,1.00,2.00,1.00,2.00,2.00,1.00,2.00,1.00,2.00,2.00,1.60
-922523244014,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,2.00,4.00,1.00,3.00,1.00,2.00,3.00,4.00,2.00,1.00,2.30
-922523244014,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244014,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,8.00,7.00,9.00,7.00,8.00,9.00,9.00,9.00,8.20
-922523244014,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,7.00,9.00,8.00,9.00,8.00,7.00,9.00,8.40
-922523244014,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,3.00,4.00,1.00,2.00,2.00,4.00,2.00,2.00,3.00,2.00,2.50
-922523244014,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,6.00,7.00,9.00,7.00,8.00,8.00,9.00,8.00,9.00,8.00
-922523244014,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,1.00,2.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,2.00,1.20
-922523244014,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,1.00,1.00,2.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.10
-922523244043,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244043,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.80
-922523244043,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,9.00,10.00,9.80
-922523244043,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,10.00,9.00,9.00,10.00,10.00,10.00,9.80
-922523244043,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244043,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.90
-922523244043,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,9.00,10.00,9.00,10.00,10.00,10.00,10.00,9.80
-922523244043,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,9.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,9.80
-922523244043,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244043,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244021,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,8.00,7.00,5.00,8.00,10.00,5.00,10.00,8.00,7.00,7.50
-922523244021,Computer Science and Business Systems,4,Pavithra,Database Management Systems,2.00,2.00,2.00,2.00,10.00,1.00,2.00,5.00,3.00,1.00,3.00
-922523244021,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,2.00,3.00,2.00,1.00,7.00,1.00,2.00,6.00,2.00,1.00,2.70
-922523244021,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,5.00,5.00,3.00,10.00,2.00,2.00,5.00,1.00,1.00,3.50
-922523244021,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244021,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,7.00,5.00,7.00,10.00,7.00,7.00,9.00,6.00,6.00,7.10
-922523244021,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,2.00,2.00,2.00,1.00,7.00,1.00,2.00,7.00,1.00,1.00,2.60
-922523244021,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244021,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,7.00,3.00,5.00,7.00,6.00,10.00,8.00,4.00,5.00,6.20
-922523244021,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,3.00,3.00,2.00,2.00,8.00,2.00,3.00,5.00,1.00,1.00,3.00
-922523244012,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,7.00,9.00,10.00,6.00,8.00,9.00
-922523244012,Computer Science and Business Systems,4,Pavithra,Database Management Systems,5.00,2.00,5.00,4.00,10.00,5.00,7.00,5.00,6.00,7.00,5.60
-922523244012,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,2.00,2.00,3.00,2.00,10.00,9.00,3.00,9.00,2.00,2.00,4.40
-922523244012,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,5.00,10.00,5.00,9.00,2.00,1.00,2.00,2.00,2.00,3.90
-922523244012,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244012,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,7.00,8.00,8.00,9.00,8.00,9.00,10.00,8.00,8.00,8.20
-922523244012,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,3.00,4.00,5.00,2.00,6.00,5.00,6.00,7.00,8.00,6.00,5.20
-922523244012,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244012,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,7.00,6.00,6.00,8.00,8.00,7.00,5.00,6.00,6.00,6.70
-922523244012,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,5.00,6.00,5.00,4.00,3.00,2.00,5.00,4.00,3.00,3.00,4.00
-922523244058,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,8.00,7.00,8.00,7.00,7.00,7.00,7.00,8.00,7.00,7.30
-922523244058,Computer Science and Business Systems,4,Pavithra,Database Management Systems,3.00,5.00,3.00,3.00,5.00,3.00,6.00,2.00,4.00,3.00,3.70
-922523244058,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,2.00,2.00,2.00,2.00,2.00,2.00,2.00,2.00,2.00,2.00,2.00
-922523244058,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244058,Computer Science and Business Systems,4,Manonmani,Machine Learning,5.00,6.00,6.00,5.00,5.00,4.00,7.00,3.00,7.00,4.00,5.20
-922523244058,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,8.00,10.00,8.00,6.00,7.00,9.00,5.00,5.00,8.00,7.50
-922523244058,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,8.00,7.00,7.00,8.00,6.00,5.00,10.00,7.00,9.00,7.50
-922523244058,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244058,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,8.00,6.00,7.00,5.00,8.00,6.00,10.00,7.00,9.00,7.40
-922523244058,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,4.00,7.00,5.00,7.00,8.00,5.00,7.00,5.00,5.00,1.00,5.40
-922523244052,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,8.00,5.00,6.00,9.00,8.00,9.00,10.00,6.00,4.00,7.00
-922523244052,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,8.00,7.00,10.00,10.00,7.00,8.00,8.00,10.00,9.00,8.70
-922523244052,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,6.00,8.00,9.00,9.00,7.00,8.00,7.00,9.00,8.00,7.90
-922523244052,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,4.00,8.00,6.00,9.00,10.00,7.00,6.00,5.00,5.00,8.00,6.80
-922523244052,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,9.00,10.00,9.00,8.00,9.00,9.00,9.00,10.00,10.00,9.30
-922523244052,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,8.00,9.00,10.00,7.00,9.00,6.00,2.00,7.00,6.00,7.40
-922523244052,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,7.00,8.00,9.00,7.00,9.00,10.00,7.00,8.00,10.00,8.20
-922523244052,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,9.00,8.00,9.00,10.00,8.00,9.00,10.00,9.00,10.00,9.20
-922523244052,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,8.00,9.00,8.00,7.00,8.00,6.00,7.00,8.00,6.00,7.40
-922523244052,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,8.00,9.00,10.00,9.00,8.00,7.00,9.00,10.00,8.00,8.50
-922523244062,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,9.00,8.00,8.00,7.00,8.00,10.00,8.00,7.00,7.00,8.00
-922523244062,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,7.00,6.00,7.00,8.00,6.00,7.00,8.00,7.00,8.00,7.10
-922523244062,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,8.00,9.00,8.00,8.00,9.00,9.00,8.00,8.00,9.00,8.40
-922523244062,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,5.00,1.00,1.00,1.00,1.00,1.00,1.40
-922523244062,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,10.00,10.00,9.20
-922523244062,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,9.00,9.00,8.40
-922523244062,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,7.00,5.00,6.00,8.00,6.00,7.00,7.00,6.00,8.00,6.70
-922523244062,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,9.00,9.00,9.00,9.00,8.00,10.00,8.00,8.90
-922523244062,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244062,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244031,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244031,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,9.90
-922523244031,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244031,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244031,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244031,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244031,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,9.00,10.00,9.00,10.00,10.00,10.00,10.00,9.80
-922523244031,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.90
-922523244031,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244031,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,9.00,10.00,10.00,10.00,9.00,9.00,10.00,10.00,10.00,9.70
-922523244018,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244018,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
-922523244018,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,8.00,8.00,8.00,8.00,7.00,8.00,8.00,8.00,8.00,7.90
-922523244018,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,4.00,4.00,4.00,4.00,4.00,4.00,5.00,4.00,4.00,4.00,4.10
-922523244018,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,9.00,9.00,9.00,9.00,10.00,10.00,10.00,9.30
-922523244018,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00,7.00,8.00,7.80
-922523244018,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,8.00,8.00,7.00,6.00,8.00,8.00,8.00,8.00,8.00,7.70
-922523244018,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,8.00,8.00,7.00,7.00,7.00,9.00,10.00,10.00,10.00,8.40
-922523244018,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,8.00,8.00,9.50
-922523244018,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00,7.00,8.00,7.80
-922523244027,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,8.00,9.00,9.00,6.00,10.00,8.00,6.00,7.00,10.00,8.00
-922523244027,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244027,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,7.00,4.00,9.00,5.00,7.00,8.00,8.00,9.00,10.00,7.70
-922523244027,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244027,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244027,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,6.00,6.00,8.00,3.00,7.00,8.00,8.00,7.00,7.00,1.00,6.10
-922523244027,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,9.00,10.00,10.00,10.00,9.00,10.00,9.00,10.00,10.00,9.70
-922523244027,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,9.00,9.00,10.00,9.00,9.00,9.00,10.00,9.00,10.00,9.40
-922523244027,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,9.90
-922523244027,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.00,10.00,10.00,9.80
-922523244029,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244029,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,9.00,8.00,8.00,8.00,8.00,7.00,8.00,7.00,7.00,7.90
-922523244029,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244029,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,5.00,5.00,5.00,4.00,5.00,4.00,4.00,2.00,4.00,3.90
-922523244029,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,1.00,9.10
-922523244029,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244029,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,7.00,8.00,9.00,7.00,8.00,8.00,8.00,8.00,8.00,7.80
-922523244029,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,1.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.10
-922523244029,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,6.00,7.00,8.00,7.00,8.00,7.00,8.00,7.00,7.00,8.00,7.30
-922523244029,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,8.00,9.00,8.00,8.00,9.00,8.00,9.00,9.00,8.00,8.50
-922523244017,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244017,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
-922523244017,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00
-922523244017,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244017,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
-922523244017,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
-922523244017,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
-922523244017,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
-922523244017,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,7.00,6.00,6.00,6.00,7.00,6.00,7.00,6.00,6.00,6.40
-922523244017,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
-922523244051,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,9.90
-922523244051,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,8.00,8.00,7.00,8.00,7.00,8.00,8.00,8.00,8.00,7.80
-922523244051,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,8.00,8.00,8.00,8.00,9.00,9.00,8.00,8.00,9.00,8.30
-922523244051,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,2.00,2.00,2.00,1.00,1.00,1.00,2.00,1.00,2.00,2.00,1.60
-922523244051,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,9.00,8.00,8.00,8.00,9.00,8.00,8.00,8.50
-922523244051,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,9.00,9.00,8.00,9.00,9.00,8.00,8.00,8.00,9.00,8.50
-922523244051,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,5.00,7.00,7.00,7.00,8.00,8.00,8.00,7.00,8.00,7.30
-922523244051,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,8.00,8.00,9.00,9.00,9.00,8.00,8.00,8.00,8.50
-922523244051,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,8.00,7.00,8.00,8.00,8.00,9.00,8.00,8.00,9.00,8.20
-922523244051,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,9.00,8.00,8.00,8.00,8.00,9.00,8.00,8.00,9.00,8.30
-922523244015,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
-922523244015,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,8.00,7.00,7.00,7.00,7.00,8.00,8.00,8.00,7.00,7.40
-922523244015,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,6.00,7.00,7.00,7.00,7.00,7.00,8.00,8.00,8.00,7.30
-922523244015,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244015,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,8.00,9.00,8.00,8.00,9.00,9.00,8.00,9.00,9.00,8.60
-922523244015,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,7.00,8.00,8.70
-922523244015,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,5.00,10.00,9.00,9.00,10.00,3.00,7.00,8.00,9.00,7.80
-922523244015,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,8.00,8.00,8.00,8.00,9.00,8.00,8.00,9.00,9.00,8.40
-922523244015,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,7.00,8.00,9.00,9.00,9.00,8.00,8.00,8.00,8.00,8.30
-922523244015,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00
-922523244019,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,6.00,7.00,8.00,7.00,7.00,7.00,7.00,7.00,9.00,7.20
-922523244019,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,8.00,9.00,8.00,9.00,9.00,9.00,8.00,7.00,9.00,8.30
-922523244019,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,10.00,9.00,7.00,8.00,9.00,8.00,7.00,8.00,9.00,8.40
-922523244019,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
-922523244019,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,9.00,10.00,9.00,8.00,9.00,8.00,6.00,8.00,10.00,8.50
-922523244019,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,10.00,8.00,10.00,8.00,9.00,8.00,10.00,9.00,8.00,8.80
-922523244019,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,9.00,8.00,9.00,8.00,8.00,9.00,9.00,9.00,9.00,8.60
-922523244019,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,10.00,9.00,9.00,10.00,9.00,10.00,3.00,8.70
-922523244019,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,7.00,8.00,7.00,8.00,7.00,8.00,7.00,8.00,8.00,7.50
-922523244019,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,8.00,9.00,8.00,7.00,8.00,8.00,7.00,8.00,7.00,7.70
+tRHpKoEoeXT640bdDC1C3bx8KpZbW6zi,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,6.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.10
+tRHpKoEoeXT640bdDC1C3bx8KpZbW6zi,Computer Science and Business Systems,4,Pavithra,Database Management Systems,5.00,4.00,3.00,2.00,1.00,5.00,4.00,3.00,2.00,1.00,3.00
+tRHpKoEoeXT640bdDC1C3bx8KpZbW6zi,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,6.00,6.00,6.00,6.00,5.00,6.00,6.00,6.00,5.00,6.00,5.80
+tRHpKoEoeXT640bdDC1C3bx8KpZbW6zi,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+tRHpKoEoeXT640bdDC1C3bx8KpZbW6zi,Computer Science and Business Systems,4,Manonmani,Machine Learning,4.00,5.00,5.00,5.00,5.00,6.00,6.00,5.00,6.00,5.00,5.20
+tRHpKoEoeXT640bdDC1C3bx8KpZbW6zi,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,7.00,8.00,6.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
+tRHpKoEoeXT640bdDC1C3bx8KpZbW6zi,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,1.00,1.00,3.00,2.00,2.00,3.00,1.00,2.00,3.00,1.00,1.90
+tRHpKoEoeXT640bdDC1C3bx8KpZbW6zi,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,4.00,5.00,5.00,6.00,5.00,4.00,4.00,6.00,5.00,5.00,4.90
+tRHpKoEoeXT640bdDC1C3bx8KpZbW6zi,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,7.00,5.00,6.00,5.00,3.00,6.00,5.00,7.00,4.00,5.60
+tRHpKoEoeXT640bdDC1C3bx8KpZbW6zi,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,4.00,6.00,7.00,6.00,4.00,4.00,7.00,7.00,7.00,8.00,6.00
+V/HoNbz/QXVbMU9lksvHWd52umuAXGQx,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+V/HoNbz/QXVbMU9lksvHWd52umuAXGQx,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,8.00,10.00,8.00,8.00,9.00,10.00,10.00,8.00,8.00,8.80
+V/HoNbz/QXVbMU9lksvHWd52umuAXGQx,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+V/HoNbz/QXVbMU9lksvHWd52umuAXGQx,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+V/HoNbz/QXVbMU9lksvHWd52umuAXGQx,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+V/HoNbz/QXVbMU9lksvHWd52umuAXGQx,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,8.00,9.00,6.00,5.00,8.00,8.00,9.00,10.00,10.00,8.00
+V/HoNbz/QXVbMU9lksvHWd52umuAXGQx,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,9.90
+V/HoNbz/QXVbMU9lksvHWd52umuAXGQx,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+V/HoNbz/QXVbMU9lksvHWd52umuAXGQx,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,9.00,7.00,6.00,6.00,3.00,7.00,8.00,10.00,9.00,7.30
+V/HoNbz/QXVbMU9lksvHWd52umuAXGQx,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+BHAJxa8USxb0gtwv2FGeBVjB7FdHxC7J,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+BHAJxa8USxb0gtwv2FGeBVjB7FdHxC7J,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+BHAJxa8USxb0gtwv2FGeBVjB7FdHxC7J,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+BHAJxa8USxb0gtwv2FGeBVjB7FdHxC7J,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+BHAJxa8USxb0gtwv2FGeBVjB7FdHxC7J,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+BHAJxa8USxb0gtwv2FGeBVjB7FdHxC7J,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+BHAJxa8USxb0gtwv2FGeBVjB7FdHxC7J,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+BHAJxa8USxb0gtwv2FGeBVjB7FdHxC7J,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+BHAJxa8USxb0gtwv2FGeBVjB7FdHxC7J,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+BHAJxa8USxb0gtwv2FGeBVjB7FdHxC7J,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+eSnTTRhp1weA9DyzfVahCR7xN8S6ATfF,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,6.00,6.00,6.00,6.00,6.00,7.00,7.00,7.00,7.00,7.00,6.50
+eSnTTRhp1weA9DyzfVahCR7xN8S6ATfF,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+eSnTTRhp1weA9DyzfVahCR7xN8S6ATfF,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+eSnTTRhp1weA9DyzfVahCR7xN8S6ATfF,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+eSnTTRhp1weA9DyzfVahCR7xN8S6ATfF,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
+eSnTTRhp1weA9DyzfVahCR7xN8S6ATfF,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+eSnTTRhp1weA9DyzfVahCR7xN8S6ATfF,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,8.00,8.00,9.00,9.00,9.00,8.00,8.00,8.00,9.00,8.40
+eSnTTRhp1weA9DyzfVahCR7xN8S6ATfF,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,8.00,9.00,8.00,9.00,8.00,9.00,8.00,9.00,8.00,8.50
+eSnTTRhp1weA9DyzfVahCR7xN8S6ATfF,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+eSnTTRhp1weA9DyzfVahCR7xN8S6ATfF,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,9.90
+ZbeD5W2P/vjrzumXgSBno/GF1rbJxxcn,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,9.00,8.00,8.00,9.00,8.00,9.00,8.00,9.00,9.00,8.50
+ZbeD5W2P/vjrzumXgSBno/GF1rbJxxcn,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,5.00,6.00,7.00,8.00,8.00,8.00,7.00,8.00,7.00
+ZbeD5W2P/vjrzumXgSBno/GF1rbJxxcn,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,7.00,7.00,8.00,7.00,8.00,7.00,8.00,8.00,8.00,6.00,7.40
+ZbeD5W2P/vjrzumXgSBno/GF1rbJxxcn,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,5.00,6.00,3.00,5.00,6.00,4.00,6.00,7.00,5.00,6.00,5.30
+ZbeD5W2P/vjrzumXgSBno/GF1rbJxxcn,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,9.00,7.00,8.00,9.00,8.00,8.00,9.00,8.00,8.20
+ZbeD5W2P/vjrzumXgSBno/GF1rbJxxcn,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,6.00,8.00,9.00,8.00,9.00,7.00,8.00,9.00,8.00,9.00,8.10
+ZbeD5W2P/vjrzumXgSBno/GF1rbJxxcn,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,6.00,7.00,6.00,8.00,6.00,6.00,7.00,7.00,8.00,6.80
+ZbeD5W2P/vjrzumXgSBno/GF1rbJxxcn,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,9.00,10.00,9.00,10.00,9.00,10.00,10.00,9.00,10.00,9.60
+ZbeD5W2P/vjrzumXgSBno/GF1rbJxxcn,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,6.00,6.00,7.00,7.00,6.00,6.00,7.00,6.00,6.00,6.40
+ZbeD5W2P/vjrzumXgSBno/GF1rbJxxcn,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,7.00,8.00,9.00,10.00,7.00,8.00,7.00,8.00,8.00
+LZxRrrOQgKGsPHLbQoDddIwMLChJMp+m,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,5.00,6.00,5.00,6.00,5.00,6.00,5.00,5.00,5.00,5.30
+LZxRrrOQgKGsPHLbQoDddIwMLChJMp+m,Computer Science and Business Systems,4,Pavithra,Database Management Systems,2.00,1.00,1.00,2.00,3.00,2.00,1.00,3.00,2.00,2.00,1.90
+LZxRrrOQgKGsPHLbQoDddIwMLChJMp+m,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,8.00,8.00,8.00,8.00,8.00,8.00,9.00,8.00,8.00,8.20
+LZxRrrOQgKGsPHLbQoDddIwMLChJMp+m,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,3.00,4.00,2.00,4.00,3.00,3.00,1.00,2.00,1.00,3.00,2.60
+LZxRrrOQgKGsPHLbQoDddIwMLChJMp+m,Computer Science and Business Systems,4,Manonmani,Machine Learning,6.00,7.00,7.00,6.00,7.00,7.00,7.00,6.00,7.00,6.00,6.60
+LZxRrrOQgKGsPHLbQoDddIwMLChJMp+m,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,10.00,9.00,9.00,10.00,10.00,9.00,10.00,9.40
+LZxRrrOQgKGsPHLbQoDddIwMLChJMp+m,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,5.00,5.00,6.00,6.00,5.00,6.00,3.00,3.00,3.00,3.00,4.50
+LZxRrrOQgKGsPHLbQoDddIwMLChJMp+m,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,8.00,8.00,7.00,9.00,6.00,8.00,9.00,8.00,8.00,8.00
+LZxRrrOQgKGsPHLbQoDddIwMLChJMp+m,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,6.00,7.00,7.00,6.00,6.00,8.00,7.00,7.00,8.00,6.90
+LZxRrrOQgKGsPHLbQoDddIwMLChJMp+m,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,7.00,8.00,7.00,8.00,7.00,8.00,6.00,8.00,6.00,7.20
+gSgdXpJTC3NVaqP1idaHRdJIKsIiNku5,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,5.00,3.00,3.00,4.00,4.00,4.00,5.00,6.00,4.00,4.30
+gSgdXpJTC3NVaqP1idaHRdJIKsIiNku5,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+gSgdXpJTC3NVaqP1idaHRdJIKsIiNku5,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+gSgdXpJTC3NVaqP1idaHRdJIKsIiNku5,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+gSgdXpJTC3NVaqP1idaHRdJIKsIiNku5,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+gSgdXpJTC3NVaqP1idaHRdJIKsIiNku5,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,8.00,10.00,9.70
+gSgdXpJTC3NVaqP1idaHRdJIKsIiNku5,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+gSgdXpJTC3NVaqP1idaHRdJIKsIiNku5,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+gSgdXpJTC3NVaqP1idaHRdJIKsIiNku5,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+gSgdXpJTC3NVaqP1idaHRdJIKsIiNku5,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+OByD9yXWmFfQ+FezGTsx6Ii3WzHK2eG+,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,7.00,8.00,7.00,7.00,9.00,7.00,8.00,7.00,9.00,7.60
+OByD9yXWmFfQ+FezGTsx6Ii3WzHK2eG+,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,9.00,9.00,8.00,9.00,10.00,9.00,9.00,9.00,10.00,9.10
+OByD9yXWmFfQ+FezGTsx6Ii3WzHK2eG+,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.00,10.00,9.00,9.70
+OByD9yXWmFfQ+FezGTsx6Ii3WzHK2eG+,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,9.00,9.00,9.00,8.00,9.00,8.00,9.00,9.00,8.00,9.00,8.70
+OByD9yXWmFfQ+FezGTsx6Ii3WzHK2eG+,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,10.00,8.00,10.00,10.00,8.00,9.00,10.00,8.00,9.10
+OByD9yXWmFfQ+FezGTsx6Ii3WzHK2eG+,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,9.00,10.00,9.00,9.00,9.00,8.00,9.00,10.00,9.00,9.20
+OByD9yXWmFfQ+FezGTsx6Ii3WzHK2eG+,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,8.00,9.00,10.00,10.00,7.00,9.00,10.00,10.00,9.30
+OByD9yXWmFfQ+FezGTsx6Ii3WzHK2eG+,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,9.00,9.00,10.00,9.00,10.00,9.00,9.00,10.00,9.50
+OByD9yXWmFfQ+FezGTsx6Ii3WzHK2eG+,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,9.00,8.00,8.00,10.00,9.00,9.00,9.00,10.00,10.00,9.20
+OByD9yXWmFfQ+FezGTsx6Ii3WzHK2eG+,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,9.00,9.00,10.00,10.00,10.00,8.00,9.00,10.00,9.00,9.20
+CYeOeDvMc524brmykmprPNf8oBYl5ieP,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+CYeOeDvMc524brmykmprPNf8oBYl5ieP,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,7.00,7.00,6.00,7.00,7.00,7.00,7.00,8.00,6.90
+CYeOeDvMc524brmykmprPNf8oBYl5ieP,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
+CYeOeDvMc524brmykmprPNf8oBYl5ieP,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,6.00,7.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.10
+CYeOeDvMc524brmykmprPNf8oBYl5ieP,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,8.00,8.00,9.00,9.00,8.00,9.00,9.00,8.00,8.40
+CYeOeDvMc524brmykmprPNf8oBYl5ieP,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,8.00,7.00,8.00,8.00,9.00,8.00,8.00,8.00,8.20
+CYeOeDvMc524brmykmprPNf8oBYl5ieP,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,7.00,9.00,7.00,8.00,9.00,8.00,9.00,8.00,8.00,8.10
+CYeOeDvMc524brmykmprPNf8oBYl5ieP,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,9.00,8.00,9.00,8.00,9.00,8.00,8.00,8.00,10.00,8.40
+CYeOeDvMc524brmykmprPNf8oBYl5ieP,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,8.00,9.00,9.00,9.00,9.00,8.00,9.00,9.00,9.00,8.80
+CYeOeDvMc524brmykmprPNf8oBYl5ieP,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
+ldaMi3UbtLr5iKjMvTcdZX6H83RkV+js,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,7.00,8.00,8.00,9.00,6.00,8.00,8.00,8.00,7.00,7.70
+ldaMi3UbtLr5iKjMvTcdZX6H83RkV+js,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,8.00,8.00,9.00,10.00,9.00,10.00,9.00,10.00,9.00,9.10
+ldaMi3UbtLr5iKjMvTcdZX6H83RkV+js,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,9.00,8.00,8.00,8.00,8.00,9.00,8.00,9.00,9.00,8.40
+ldaMi3UbtLr5iKjMvTcdZX6H83RkV+js,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,7.00,6.00,7.00,6.00,8.00,8.00,7.00,8.00,8.00,7.00,7.20
+ldaMi3UbtLr5iKjMvTcdZX6H83RkV+js,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,7.00,8.00,9.00,8.00,9.00,10.00,7.00,7.00,8.00,8.10
+ldaMi3UbtLr5iKjMvTcdZX6H83RkV+js,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,7.00,7.00,8.00,8.00,8.00,6.00,6.00,8.00,7.00,7.30
+ldaMi3UbtLr5iKjMvTcdZX6H83RkV+js,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,7.00,8.00,7.00,8.00,7.00,9.00,9.00,8.00,9.00,8.00
+ldaMi3UbtLr5iKjMvTcdZX6H83RkV+js,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,9.00,10.00,8.00,9.00,7.00,9.00,9.00,8.00,10.00,8.70
+ldaMi3UbtLr5iKjMvTcdZX6H83RkV+js,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,8.00,9.00,9.00,8.00,7.00,9.00,8.00,8.00,9.00,8.30
+ldaMi3UbtLr5iKjMvTcdZX6H83RkV+js,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,9.00,8.00,9.00,7.00,9.00,8.00,8.00,7.00,8.00,8.20
+T9LPhcK9g5ck7jKlsrdBpQa5rHDpf2eL,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,8.00,7.00,8.00,7.00,7.00,7.00,4.00,8.00,10.00,7.10
+T9LPhcK9g5ck7jKlsrdBpQa5rHDpf2eL,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,5.00,5.00,7.00,8.00,5.00,6.00,7.00,6.00,10.00,6.70
+T9LPhcK9g5ck7jKlsrdBpQa5rHDpf2eL,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,4.00,6.00,7.00,7.00,6.00,8.00,6.00,7.00,8.00,9.00,6.80
+T9LPhcK9g5ck7jKlsrdBpQa5rHDpf2eL,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,4.00,5.00,8.00,7.00,8.00,4.00,2.00,6.00,7.00,9.00,6.00
+T9LPhcK9g5ck7jKlsrdBpQa5rHDpf2eL,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,7.00,8.00,6.00,8.00,8.00,9.00,6.00,8.00,5.00,7.20
+T9LPhcK9g5ck7jKlsrdBpQa5rHDpf2eL,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,7.00,7.00,7.00,6.00,9.00,5.00,5.00,8.00,10.00,7.20
+T9LPhcK9g5ck7jKlsrdBpQa5rHDpf2eL,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,5.00,6.00,6.00,8.00,5.00,6.00,7.00,8.00,9.00,6.70
+T9LPhcK9g5ck7jKlsrdBpQa5rHDpf2eL,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,8.00,8.00,8.00,8.00,8.00,10.00,9.00,7.00,10.00,8.30
+T9LPhcK9g5ck7jKlsrdBpQa5rHDpf2eL,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,6.00,8.00,6.00,9.00,5.00,9.00,7.00,5.00,4.00,10.00,6.90
+T9LPhcK9g5ck7jKlsrdBpQa5rHDpf2eL,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,4.00,6.00,3.00,7.00,8.00,7.00,7.00,6.00,6.00,10.00,6.40
+atko18lFcqvHFs9OP4kHKtY7Qt2QUZ1Y,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,6.00,7.00,6.00,6.00,5.00,7.00,5.00,5.00,5.00,5.70
+atko18lFcqvHFs9OP4kHKtY7Qt2QUZ1Y,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,8.00,5.00,5.00,5.00,6.00,7.00,5.00,6.00,7.00,6.10
+atko18lFcqvHFs9OP4kHKtY7Qt2QUZ1Y,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,5.00,6.00,6.00,7.00,7.00,5.00,8.00,7.00,7.00,5.00,6.30
+atko18lFcqvHFs9OP4kHKtY7Qt2QUZ1Y,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+atko18lFcqvHFs9OP4kHKtY7Qt2QUZ1Y,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,5.00,8.00,7.00,6.00,5.00,9.00,8.00,7.00,8.00,7.10
+atko18lFcqvHFs9OP4kHKtY7Qt2QUZ1Y,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,8.00,7.00,9.00,8.00,7.00,8.00,9.00,7.00,6.00,7.60
+atko18lFcqvHFs9OP4kHKtY7Qt2QUZ1Y,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,4.00,6.00,5.00,4.00,8.00,7.00,5.00,9.00,7.00,6.00,6.10
+atko18lFcqvHFs9OP4kHKtY7Qt2QUZ1Y,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,8.00,7.00,7.00,4.00,10.00,9.00,9.00,9.00,8.30
+atko18lFcqvHFs9OP4kHKtY7Qt2QUZ1Y,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,1.00,2.00,2.00,1.00,3.00,4.00,2.00,3.00,3.00,4.00,2.50
+atko18lFcqvHFs9OP4kHKtY7Qt2QUZ1Y,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,6.00,4.00,9.00,7.00,8.00,7.00,8.00,8.00,6.00,9.00,7.20
+JIPfXHeIo4nxoBX2uyn2ni6oaaWTdK+K,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+JIPfXHeIo4nxoBX2uyn2ni6oaaWTdK+K,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,7.00,7.00,7.00,6.00,7.00,7.00,6.00,6.00,6.60
+JIPfXHeIo4nxoBX2uyn2ni6oaaWTdK+K,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+JIPfXHeIo4nxoBX2uyn2ni6oaaWTdK+K,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,6.00,6.00,7.00,6.00,7.00,6.00,6.00,6.00,7.00,6.00,6.30
+JIPfXHeIo4nxoBX2uyn2ni6oaaWTdK+K,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.40
+JIPfXHeIo4nxoBX2uyn2ni6oaaWTdK+K,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,8.00,9.00,9.00,9.00,9.00,9.00,8.00,8.80
+JIPfXHeIo4nxoBX2uyn2ni6oaaWTdK+K,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,6.00,6.00,6.00,7.00,7.00,7.00,6.00,6.00,7.00,6.40
+JIPfXHeIo4nxoBX2uyn2ni6oaaWTdK+K,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,9.00,8.00,8.00,8.00,9.00,8.00,8.00,8.00,8.00,8.20
+JIPfXHeIo4nxoBX2uyn2ni6oaaWTdK+K,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,9.00,8.00,9.00,9.00,8.00,8.00,8.00,9.00,9.00,8.60
+JIPfXHeIo4nxoBX2uyn2ni6oaaWTdK+K,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+X5Nc3+7Qu8d7XbzfufHCuLVJ1E9KR4UH,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,6.00,8.00,7.00,8.00,7.00,7.00,8.00,8.00,8.00,8.00,7.50
+X5Nc3+7Qu8d7XbzfufHCuLVJ1E9KR4UH,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,5.00,5.00,7.00,6.00,8.00,8.00,7.00,7.00,8.00,6.90
+X5Nc3+7Qu8d7XbzfufHCuLVJ1E9KR4UH,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,6.00,6.00,7.00,7.00,7.00,6.00,8.00,6.00,8.00,7.00,6.80
+X5Nc3+7Qu8d7XbzfufHCuLVJ1E9KR4UH,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,8.00,5.00,8.00,7.00,8.00,7.00,8.00,8.00,9.00,8.00,7.60
+X5Nc3+7Qu8d7XbzfufHCuLVJ1E9KR4UH,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,7.00,8.00,8.00,8.00,8.00,8.00,7.00,7.00,9.00,7.70
+X5Nc3+7Qu8d7XbzfufHCuLVJ1E9KR4UH,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,8.00,7.00,7.00,7.00,7.00,8.00,8.00,8.00,8.00,7.70
+X5Nc3+7Qu8d7XbzfufHCuLVJ1E9KR4UH,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,4.00,6.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00,7.20
+X5Nc3+7Qu8d7XbzfufHCuLVJ1E9KR4UH,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,8.00,8.00,8.00,7.00,8.00,7.00,8.00,9.00,8.00,7.80
+X5Nc3+7Qu8d7XbzfufHCuLVJ1E9KR4UH,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,6.00,8.00,6.00,7.00,6.00,8.00,8.00,8.00,9.00,8.00,7.40
+X5Nc3+7Qu8d7XbzfufHCuLVJ1E9KR4UH,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,6.00,7.00,6.00,6.00,8.00,7.00,8.00,7.00,8.00,7.10
+OO+dnaBBkQdPiZ1XpF4luEtiWZiIgqrt,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,5.00,1.00,9.00,1.00,10.00,8.00,9.00,1.00,10.00,6.40
+OO+dnaBBkQdPiZ1XpF4luEtiWZiIgqrt,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+OO+dnaBBkQdPiZ1XpF4luEtiWZiIgqrt,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+OO+dnaBBkQdPiZ1XpF4luEtiWZiIgqrt,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+OO+dnaBBkQdPiZ1XpF4luEtiWZiIgqrt,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,10.00,9.00,9.00,5.00,2.00,2.00,5.00,6.00,6.60
+OO+dnaBBkQdPiZ1XpF4luEtiWZiIgqrt,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,5.00,2.00,5.00,5.00,8.00,9.00,6.00,7.00,6.50
+OO+dnaBBkQdPiZ1XpF4luEtiWZiIgqrt,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+OO+dnaBBkQdPiZ1XpF4luEtiWZiIgqrt,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,9.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,9.80
+OO+dnaBBkQdPiZ1XpF4luEtiWZiIgqrt,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+OO+dnaBBkQdPiZ1XpF4luEtiWZiIgqrt,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+zrtsfVIXDkUZoUT4OVjazcjL2cimOg9Q,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,9.00,7.00,7.00,8.00,8.00,8.00,7.00,7.00,8.00,7.60
+zrtsfVIXDkUZoUT4OVjazcjL2cimOg9Q,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,8.00,8.00,8.00,8.00,8.00,8.00,9.00,8.00,8.00,8.10
+zrtsfVIXDkUZoUT4OVjazcjL2cimOg9Q,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,9.00,8.00,9.00,9.00,8.00,7.00,8.00,9.00,8.00,8.30
+zrtsfVIXDkUZoUT4OVjazcjL2cimOg9Q,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.10
+zrtsfVIXDkUZoUT4OVjazcjL2cimOg9Q,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,8.00,9.00,8.00,8.00,9.00,8.00,8.00,8.00,7.00,8.20
+zrtsfVIXDkUZoUT4OVjazcjL2cimOg9Q,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,7.00,7.00,8.00,7.00,6.00,7.00,7.00,8.00,8.00,7.30
+zrtsfVIXDkUZoUT4OVjazcjL2cimOg9Q,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,9.00,8.00,8.10
+zrtsfVIXDkUZoUT4OVjazcjL2cimOg9Q,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,7.00,7.80
+zrtsfVIXDkUZoUT4OVjazcjL2cimOg9Q,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,9.00,9.00,10.00,10.00,10.00,10.00,9.00,10.00,9.00,9.50
+zrtsfVIXDkUZoUT4OVjazcjL2cimOg9Q,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,8.00,8.00,9.00,8.00,8.00,9.00,8.00,8.00,8.00,8.30
+ybAdUyHA7rHIt93PFk4zr5S4JsH0FYHV,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,6.00,7.00,5.00,5.00,8.00,3.00,2.00,2.00,3.00,4.00,4.50
+ybAdUyHA7rHIt93PFk4zr5S4JsH0FYHV,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,8.00,8.00,7.00,8.00,5.00,8.00,8.00,7.00,7.20
+ybAdUyHA7rHIt93PFk4zr5S4JsH0FYHV,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,4.00,4.00,7.00,6.00,6.00,5.00,4.00,6.00,5.00,6.00,5.30
+ybAdUyHA7rHIt93PFk4zr5S4JsH0FYHV,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+ybAdUyHA7rHIt93PFk4zr5S4JsH0FYHV,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,8.00,7.00,8.00,7.00,9.00,8.00,7.00,7.00,8.00,7.60
+ybAdUyHA7rHIt93PFk4zr5S4JsH0FYHV,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,6.00,6.00,7.00,8.00,8.00,7.00,8.00,7.00,7.00,8.00,7.20
+ybAdUyHA7rHIt93PFk4zr5S4JsH0FYHV,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,7.00,6.00,7.00,7.00,6.00,7.00,6.00,7.00,7.00,6.70
+ybAdUyHA7rHIt93PFk4zr5S4JsH0FYHV,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,7.00,8.00,9.00,8.00,9.00,8.00,9.00,8.00,9.00,8.30
+ybAdUyHA7rHIt93PFk4zr5S4JsH0FYHV,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+ybAdUyHA7rHIt93PFk4zr5S4JsH0FYHV,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,6.00,6.00,6.00,7.00,8.00,9.00,9.00,9.00,9.00,9.00,7.80
+cCQGKKmXAuASuvFcw5PRTlBGqoMXEPK/,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,9.00,8.00,10.00,7.00,8.00,3.00,7.00,9.00,8.00,7.90
+cCQGKKmXAuASuvFcw5PRTlBGqoMXEPK/,Computer Science and Business Systems,4,Pavithra,Database Management Systems,6.00,7.00,6.00,7.00,6.00,8.00,3.00,6.00,7.00,3.00,5.90
+cCQGKKmXAuASuvFcw5PRTlBGqoMXEPK/,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,7.00,8.00,3.00,7.00,6.00,8.00,7.00,4.00,2.00,6.00,5.80
+cCQGKKmXAuASuvFcw5PRTlBGqoMXEPK/,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+cCQGKKmXAuASuvFcw5PRTlBGqoMXEPK/,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,8.00,8.00,7.00,8.00,7.00,8.00,9.00,8.00,8.30
+cCQGKKmXAuASuvFcw5PRTlBGqoMXEPK/,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,5.00,8.00,5.00,6.00,7.00,6.00,3.00,5.00,6.10
+cCQGKKmXAuASuvFcw5PRTlBGqoMXEPK/,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,5.00,6.00,5.00,4.00,8.00,2.00,2.00,5.00,1.00,3.00,4.10
+cCQGKKmXAuASuvFcw5PRTlBGqoMXEPK/,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,10.00,9.00,8.00,7.00,10.00,10.00,6.00,7.00,6.00,8.20
+cCQGKKmXAuASuvFcw5PRTlBGqoMXEPK/,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,10.00,6.00,10.00,9.00,8.00,10.00,4.00,8.00,8.00,8.10
+cCQGKKmXAuASuvFcw5PRTlBGqoMXEPK/,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,9.00,6.00,8.00,6.00,3.00,7.00,3.00,7.00,9.00,6.80
+mHwpTk7exahWDLF+gttQaF7gxxBuHeO9,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,9.00,9.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.30
+mHwpTk7exahWDLF+gttQaF7gxxBuHeO9,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,8.00,8.00,8.00,9.00,8.00,9.00,8.00,9.00,9.00,8.40
+mHwpTk7exahWDLF+gttQaF7gxxBuHeO9,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.00,9.00,8.00,9.50
+mHwpTk7exahWDLF+gttQaF7gxxBuHeO9,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,9.00,9.00,9.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.40
+mHwpTk7exahWDLF+gttQaF7gxxBuHeO9,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,9.00,10.00,9.00,9.00,9.00,9.00,9.50
+mHwpTk7exahWDLF+gttQaF7gxxBuHeO9,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,9.00,9.00,8.00,8.00,8.00,8.00,8.00,8.50
+mHwpTk7exahWDLF+gttQaF7gxxBuHeO9,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.10
+mHwpTk7exahWDLF+gttQaF7gxxBuHeO9,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,9.00,9.00,8.00,9.00,8.00,9.00,9.00,8.80
+mHwpTk7exahWDLF+gttQaF7gxxBuHeO9,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+mHwpTk7exahWDLF+gttQaF7gxxBuHeO9,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,9.00,9.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.30
+piJnPFc7yAK6bvKD5K6wMl44D/VvHhLg,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,4.00,6.00,5.00,6.00,6.00,6.00,3.00,7.00,5.00,6.00,5.40
+piJnPFc7yAK6bvKD5K6wMl44D/VvHhLg,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,4.00,5.00,7.00,7.00,5.00,6.00,6.00,6.00,5.90
+piJnPFc7yAK6bvKD5K6wMl44D/VvHhLg,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,7.00,7.00,5.00,6.00,8.00,7.00,7.00,7.00,6.00,7.00,6.70
+piJnPFc7yAK6bvKD5K6wMl44D/VvHhLg,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,2.00,3.00,2.00,3.00,4.00,5.00,2.00,3.00,3.00,3.00,3.00
+piJnPFc7yAK6bvKD5K6wMl44D/VvHhLg,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,7.00,9.00,8.00,9.00,8.00,8.00,7.00,8.00,8.00
+piJnPFc7yAK6bvKD5K6wMl44D/VvHhLg,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,7.00,5.00,8.00,7.00,7.00,8.00,7.00,7.00,7.00,7.10
+piJnPFc7yAK6bvKD5K6wMl44D/VvHhLg,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,5.00,5.00,7.00,7.00,6.00,6.00,5.00,6.00,7.00,6.00
+piJnPFc7yAK6bvKD5K6wMl44D/VvHhLg,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,7.00,5.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00,7.50
+piJnPFc7yAK6bvKD5K6wMl44D/VvHhLg,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,7.00,5.00,7.00,7.00,7.00,8.00,7.00,7.00,7.00,6.90
+piJnPFc7yAK6bvKD5K6wMl44D/VvHhLg,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,7.00,5.00,8.00,8.00,7.00,8.00,8.00,7.00,7.00,7.20
+NPOdTG7U3JERvEJEpCBrboPe75Ckx70J,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NPOdTG7U3JERvEJEpCBrboPe75Ckx70J,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NPOdTG7U3JERvEJEpCBrboPe75Ckx70J,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NPOdTG7U3JERvEJEpCBrboPe75Ckx70J,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NPOdTG7U3JERvEJEpCBrboPe75Ckx70J,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NPOdTG7U3JERvEJEpCBrboPe75Ckx70J,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NPOdTG7U3JERvEJEpCBrboPe75Ckx70J,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NPOdTG7U3JERvEJEpCBrboPe75Ckx70J,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NPOdTG7U3JERvEJEpCBrboPe75Ckx70J,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NPOdTG7U3JERvEJEpCBrboPe75Ckx70J,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+fneRfyPsefRt8ZE2IuIRVZPBBQQLW8Xp,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,4.00,4.00,3.00,4.00,4.00,5.00,4.00,3.00,5.00,5.00,4.10
+fneRfyPsefRt8ZE2IuIRVZPBBQQLW8Xp,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,5.00,4.00,5.00,6.00,6.00,6.00,5.00,6.00,6.00,5.60
+fneRfyPsefRt8ZE2IuIRVZPBBQQLW8Xp,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,5.00,7.00,5.00,6.00,7.00,6.00,8.00,6.00,7.00,6.00,6.30
+fneRfyPsefRt8ZE2IuIRVZPBBQQLW8Xp,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,3.00,3.00,3.00,3.00,2.00,1.00,2.00,2.00,2.00,2.00,2.30
+fneRfyPsefRt8ZE2IuIRVZPBBQQLW8Xp,Computer Science and Business Systems,4,Manonmani,Machine Learning,4.00,5.00,4.00,7.00,6.00,7.00,6.00,5.00,6.00,7.00,5.70
+fneRfyPsefRt8ZE2IuIRVZPBBQQLW8Xp,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,5.00,6.00,4.00,8.00,6.00,7.00,6.00,6.00,5.00,6.00,5.90
+fneRfyPsefRt8ZE2IuIRVZPBBQQLW8Xp,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,7.00,6.00,7.00,5.00,6.00,6.00,6.00,7.00,6.00,6.20
+fneRfyPsefRt8ZE2IuIRVZPBBQQLW8Xp,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,7.00,6.00,6.00,5.00,6.00,6.00,6.00,7.00,5.00,6.10
+fneRfyPsefRt8ZE2IuIRVZPBBQQLW8Xp,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,5.00,6.00,5.00,7.00,6.00,6.00,6.00,6.00,5.00,6.00,5.80
+fneRfyPsefRt8ZE2IuIRVZPBBQQLW8Xp,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,6.00,7.00,7.00,7.00,6.00,7.00,7.00,6.00,7.00,7.00,6.70
+aXPvImzThLMrv7G5KYbLN/+RicQx0GQf,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,8.00,8.00,9.00,10.00,7.00,6.00,7.00,6.00,7.00,7.60
+aXPvImzThLMrv7G5KYbLN/+RicQx0GQf,Computer Science and Business Systems,4,Pavithra,Database Management Systems,4.00,6.00,9.00,8.00,7.00,9.00,7.00,9.00,8.00,7.00,7.40
+aXPvImzThLMrv7G5KYbLN/+RicQx0GQf,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,6.00,5.00,7.00,7.00,5.00,8.00,10.00,10.00,7.00,7.50
+aXPvImzThLMrv7G5KYbLN/+RicQx0GQf,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,4.00,3.00,4.00,6.00,5.00,5.00,6.00,5.00,2.00,3.00,4.30
+aXPvImzThLMrv7G5KYbLN/+RicQx0GQf,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,8.00,8.00,7.00,7.00,8.00,7.00,8.00,7.00,9.00,7.60
+aXPvImzThLMrv7G5KYbLN/+RicQx0GQf,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,6.00,6.00,7.00,7.00,8.00,8.00,7.00,7.00,7.00,7.00
+aXPvImzThLMrv7G5KYbLN/+RicQx0GQf,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,6.00,7.00,9.00,8.00,8.00,7.00,7.00,8.00,9.00,7.50
+aXPvImzThLMrv7G5KYbLN/+RicQx0GQf,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,5.00,6.00,7.00,7.00,8.00,7.00,6.00,7.00,8.00,7.00
+aXPvImzThLMrv7G5KYbLN/+RicQx0GQf,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,6.00,4.00,2.00,6.00,2.00,4.00,4.00,3.00,3.00,4.20
+aXPvImzThLMrv7G5KYbLN/+RicQx0GQf,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,4.00,8.00,6.00,6.00,6.00,6.00,6.00,8.00,8.00,6.50
+Qk2PCp4tUYm24EyszVTIG1watdCLWz17,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.00,9.00,8.00,9.50
+Qk2PCp4tUYm24EyszVTIG1watdCLWz17,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+Qk2PCp4tUYm24EyszVTIG1watdCLWz17,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,10.00,10.00,9.00,9.00,9.00,8.00,9.00,10.00,10.00,9.30
+Qk2PCp4tUYm24EyszVTIG1watdCLWz17,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,8.00,8.00,9.00,9.00,9.00,9.00,9.00,10.00,10.00,10.00,9.10
+Qk2PCp4tUYm24EyszVTIG1watdCLWz17,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,10.00,9.00,9.00,10.00,10.00,9.00,10.00,9.00,10.00,9.50
+Qk2PCp4tUYm24EyszVTIG1watdCLWz17,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,10.00,9.00,9.00,9.00,9.00,9.00,8.00,9.00,9.00,9.00
+Qk2PCp4tUYm24EyszVTIG1watdCLWz17,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+Qk2PCp4tUYm24EyszVTIG1watdCLWz17,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,10.00,9.00,10.00,10.00,10.00,10.00,9.00,9.00,9.00,9.50
+Qk2PCp4tUYm24EyszVTIG1watdCLWz17,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,9.00,9.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,9.70
+Qk2PCp4tUYm24EyszVTIG1watdCLWz17,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,9.00,8.00,10.00,8.00,9.00,10.00,10.00,9.00,9.30
+nSybjC8AqXGv3v10Ou2vWI92WqwxKG+o,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,6.00,7.00,7.00,4.00,3.00,4.00,3.00,3.00,3.00,3.00,4.30
+nSybjC8AqXGv3v10Ou2vWI92WqwxKG+o,Computer Science and Business Systems,4,Pavithra,Database Management Systems,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00
+nSybjC8AqXGv3v10Ou2vWI92WqwxKG+o,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,7.00,7.00,7.00,7.00,8.00,8.00,7.00,8.00,6.00,6.00,7.10
+nSybjC8AqXGv3v10Ou2vWI92WqwxKG+o,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+nSybjC8AqXGv3v10Ou2vWI92WqwxKG+o,Computer Science and Business Systems,4,Manonmani,Machine Learning,6.00,7.00,9.00,9.00,9.00,9.00,8.00,9.00,8.00,7.00,8.10
+nSybjC8AqXGv3v10Ou2vWI92WqwxKG+o,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+nSybjC8AqXGv3v10Ou2vWI92WqwxKG+o,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00
+nSybjC8AqXGv3v10Ou2vWI92WqwxKG+o,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
+nSybjC8AqXGv3v10Ou2vWI92WqwxKG+o,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+nSybjC8AqXGv3v10Ou2vWI92WqwxKG+o,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+6ETdt5KgPBuQez4A5CeGBnezHI9AxZ9S,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,9.00,9.00,8.00,8.00,8.00,9.00,9.00,8.00,6.00,10.00,8.40
+6ETdt5KgPBuQez4A5CeGBnezHI9AxZ9S,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
+6ETdt5KgPBuQez4A5CeGBnezHI9AxZ9S,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,4.00,6.00,7.00,8.00,5.00,6.00,3.00,6.00,3.00,3.00,5.10
+6ETdt5KgPBuQez4A5CeGBnezHI9AxZ9S,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,7.00,8.00,6.00,7.00,6.00,7.00,7.00,6.00,6.00,7.00,6.70
+6ETdt5KgPBuQez4A5CeGBnezHI9AxZ9S,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+6ETdt5KgPBuQez4A5CeGBnezHI9AxZ9S,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,7.00,6.00,5.00,6.00,6.00,7.00,9.00,6.00,7.00,6.70
+6ETdt5KgPBuQez4A5CeGBnezHI9AxZ9S,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,9.00,8.00,8.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,8.80
+6ETdt5KgPBuQez4A5CeGBnezHI9AxZ9S,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,9.00,9.00,9.00,8.00,8.00,8.00,8.00,8.60
+6ETdt5KgPBuQez4A5CeGBnezHI9AxZ9S,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,8.00,10.00,7.00,8.00,8.00,7.00,9.00,9.00,9.00,8.40
+6ETdt5KgPBuQez4A5CeGBnezHI9AxZ9S,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,6.00,7.00,8.00,6.00,5.00,6.00,5.00,4.00,6.00,3.00,5.60
+eMI8zb2xrSrTRWNgoW3NYqHEFEC5FA0m,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,9.90
+eMI8zb2xrSrTRWNgoW3NYqHEFEC5FA0m,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+eMI8zb2xrSrTRWNgoW3NYqHEFEC5FA0m,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+eMI8zb2xrSrTRWNgoW3NYqHEFEC5FA0m,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,9.90
+eMI8zb2xrSrTRWNgoW3NYqHEFEC5FA0m,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,9.00,8.00,10.00,9.00,9.60
+eMI8zb2xrSrTRWNgoW3NYqHEFEC5FA0m,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,9.00,10.00,10.00,9.00,10.00,10.00,9.00,10.00,9.70
+eMI8zb2xrSrTRWNgoW3NYqHEFEC5FA0m,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+eMI8zb2xrSrTRWNgoW3NYqHEFEC5FA0m,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,9.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,9.80
+eMI8zb2xrSrTRWNgoW3NYqHEFEC5FA0m,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+eMI8zb2xrSrTRWNgoW3NYqHEFEC5FA0m,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+2eLz7zQPrzPq+u7xxLaITSRo8z6pLQXK,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,6.00,5.00,4.00,3.00,5.00,5.00,6.00,6.00,5.00,5.00
+2eLz7zQPrzPq+u7xxLaITSRo8z6pLQXK,Computer Science and Business Systems,4,Pavithra,Database Management Systems,2.00,3.00,4.00,3.00,2.00,3.00,2.00,1.00,3.00,3.00,2.60
+2eLz7zQPrzPq+u7xxLaITSRo8z6pLQXK,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,1.00,1.00,2.00,3.00,3.00,1.00,4.00,2.00,2.00,1.00,2.00
+2eLz7zQPrzPq+u7xxLaITSRo8z6pLQXK,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,2.00,1.00,1.00,1.10
+2eLz7zQPrzPq+u7xxLaITSRo8z6pLQXK,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,7.00,9.00,8.00,7.00,8.00,6.00,7.00,9.00,8.00,7.60
+2eLz7zQPrzPq+u7xxLaITSRo8z6pLQXK,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,9.00,7.00,7.00,7.00,7.00,8.00,6.00,8.00,9.00,7.50
+2eLz7zQPrzPq+u7xxLaITSRo8z6pLQXK,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,3.00,2.00,3.00,2.00,2.00,4.00,1.00,3.00,3.00,3.00,2.60
+2eLz7zQPrzPq+u7xxLaITSRo8z6pLQXK,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,8.00,8.00,9.00,9.00,9.00,8.00,10.00,8.00,9.00,8.70
+2eLz7zQPrzPq+u7xxLaITSRo8z6pLQXK,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,6.00,6.00,5.00,7.00,8.00,8.00,7.00,8.00,7.00,6.00,6.80
+2eLz7zQPrzPq+u7xxLaITSRo8z6pLQXK,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,2.00,2.00,2.00,2.00,3.00,3.00,2.00,1.00,1.00,3.00,2.10
+bs4Xh6qbeCou52dz1Ns0GIzNctXgw8kt,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,9.00,9.00,8.00,8.00,8.00,8.00,7.00,7.00,7.00,8.10
+bs4Xh6qbeCou52dz1Ns0GIzNctXgw8kt,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,7.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.10
+bs4Xh6qbeCou52dz1Ns0GIzNctXgw8kt,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,6.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,7.90
+bs4Xh6qbeCou52dz1Ns0GIzNctXgw8kt,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,9.00,6.00,7.00,8.00,8.00,9.00,9.00,8.00,8.00,8.00,8.00
+bs4Xh6qbeCou52dz1Ns0GIzNctXgw8kt,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,9.00,8.00,8.00,8.00,9.00,8.00,8.00,9.00,8.30
+bs4Xh6qbeCou52dz1Ns0GIzNctXgw8kt,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,9.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.20
+bs4Xh6qbeCou52dz1Ns0GIzNctXgw8kt,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,7.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.20
+bs4Xh6qbeCou52dz1Ns0GIzNctXgw8kt,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+bs4Xh6qbeCou52dz1Ns0GIzNctXgw8kt,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,7.00,9.00,9.00,8.00,9.00,9.00,8.00,8.00,9.00,8.40
+bs4Xh6qbeCou52dz1Ns0GIzNctXgw8kt,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,7.00,9.00,8.00,8.00,8.00,9.00,9.00,9.00,9.00,8.60
+5N8Ok0JADLthy2JOT7yaZud0jKLT1SfQ,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,9.00,10.00,8.00,10.00,10.00,9.00,9.00,8.00,9.00,7.00,8.90
+5N8Ok0JADLthy2JOT7yaZud0jKLT1SfQ,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,10.00,8.00,8.00,10.00,10.00,9.00,9.00,9.00,9.00,9.10
+5N8Ok0JADLthy2JOT7yaZud0jKLT1SfQ,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,8.00,8.00,8.00,9.00,9.00,9.00,9.00,8.00,8.00,8.50
+5N8Ok0JADLthy2JOT7yaZud0jKLT1SfQ,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,8.00,9.00,9.00,9.00,9.00,10.00,9.00,8.00,8.00,9.00,8.80
+5N8Ok0JADLthy2JOT7yaZud0jKLT1SfQ,Computer Science and Business Systems,4,Manonmani,Machine Learning,7.00,8.00,9.00,9.00,9.00,9.00,7.00,8.00,8.00,8.00,8.20
+5N8Ok0JADLthy2JOT7yaZud0jKLT1SfQ,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,9.00,9.00,7.00,7.00,10.00,10.00,8.00,7.00,9.00,8.40
+5N8Ok0JADLthy2JOT7yaZud0jKLT1SfQ,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,9.00,8.00,10.00,7.00,9.00,8.00,8.00,8.00,9.00,6.00,8.20
+5N8Ok0JADLthy2JOT7yaZud0jKLT1SfQ,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,10.00,8.00,10.00,8.00,9.00,9.00,8.00,10.00,9.00
+5N8Ok0JADLthy2JOT7yaZud0jKLT1SfQ,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,10.00,10.00,10.00,9.00,8.00,9.00,10.00,10.00,10.00,9.50
+5N8Ok0JADLthy2JOT7yaZud0jKLT1SfQ,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,10.00,8.00,8.00,7.00,8.00,9.00,9.00,9.00,8.00,8.50
+vpEl3Lu7tn2Tpw499QDlsvzlykax80Cq,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,8.00,10.00,9.00,8.00,8.00,8.00,8.00,10.00,8.90
+vpEl3Lu7tn2Tpw499QDlsvzlykax80Cq,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,8.00,8.00,9.00,9.00,8.00,8.00,8.00,8.00,7.00,8.30
+vpEl3Lu7tn2Tpw499QDlsvzlykax80Cq,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,8.00,8.00,8.00,9.00,8.00,7.00,8.00,8.00,8.00,8.00
+vpEl3Lu7tn2Tpw499QDlsvzlykax80Cq,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,8.00,7.00,8.00,8.00,9.00,8.00,8.00,8.00,8.00,7.00,7.90
+vpEl3Lu7tn2Tpw499QDlsvzlykax80Cq,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,9.00,8.00,8.00,9.00,8.00,9.00,8.00,8.00,8.00,8.50
+vpEl3Lu7tn2Tpw499QDlsvzlykax80Cq,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,8.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.10
+vpEl3Lu7tn2Tpw499QDlsvzlykax80Cq,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,8.00,8.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.30
+vpEl3Lu7tn2Tpw499QDlsvzlykax80Cq,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,8.00,8.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.30
+vpEl3Lu7tn2Tpw499QDlsvzlykax80Cq,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,8.00,8.00,8.00,9.00,9.00,9.00,8.00,8.00,8.00,8.30
+vpEl3Lu7tn2Tpw499QDlsvzlykax80Cq,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,8.00,8.00,8.00,9.00,9.00,9.00,8.00,8.00,8.00,8.40
+IDif8y0nuXhNYYlzcM13/4SEL4cf1fAM,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,8.00,8.00,8.00,7.00,4.00,9.00,10.00,9.00,8.00,7.90
+IDif8y0nuXhNYYlzcM13/4SEL4cf1fAM,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,8.00,7.00,8.00,8.00,3.00,9.00,10.00,8.00,8.00,7.70
+IDif8y0nuXhNYYlzcM13/4SEL4cf1fAM,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,7.00,8.00,7.00,7.00,8.00,3.00,8.00,10.00,7.00,8.00,7.30
+IDif8y0nuXhNYYlzcM13/4SEL4cf1fAM,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,3.00,6.00,7.00,7.00,6.00,3.00,5.00,10.00,9.00,7.00,6.30
+IDif8y0nuXhNYYlzcM13/4SEL4cf1fAM,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,9.00,9.00,9.00,9.00,3.00,9.00,10.00,9.00,8.00,8.30
+IDif8y0nuXhNYYlzcM13/4SEL4cf1fAM,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,9.00,6.00,9.00,9.00,5.00,9.00,10.00,8.00,8.00,8.10
+IDif8y0nuXhNYYlzcM13/4SEL4cf1fAM,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,8.00,7.00,8.00,8.00,3.00,8.00,10.00,9.00,7.00,7.60
+IDif8y0nuXhNYYlzcM13/4SEL4cf1fAM,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,8.00,9.00,9.00,9.00,3.00,9.00,10.00,10.00,8.00,8.30
+IDif8y0nuXhNYYlzcM13/4SEL4cf1fAM,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,6.00,8.00,2.00,5.00,6.00,3.00,4.00,9.00,4.00,8.00,5.50
+IDif8y0nuXhNYYlzcM13/4SEL4cf1fAM,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,2.00,5.00,7.00,3.00,8.00,10.00,7.00,8.00,6.60
+NdkCP39kR/NqUO5+D9+ySV04S+5u1mgD,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,9.90
+NdkCP39kR/NqUO5+D9+ySV04S+5u1mgD,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NdkCP39kR/NqUO5+D9+ySV04S+5u1mgD,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,9.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,9.80
+NdkCP39kR/NqUO5+D9+ySV04S+5u1mgD,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,10.00,9.00,9.00,8.00,10.00,10.00,9.60
+NdkCP39kR/NqUO5+D9+ySV04S+5u1mgD,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+NdkCP39kR/NqUO5+D9+ySV04S+5u1mgD,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,9.00,8.00,10.00,9.00,10.00,9.00,10.00,10.00,10.00,9.50
+NdkCP39kR/NqUO5+D9+ySV04S+5u1mgD,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,9.00,10.00,10.00,10.00,9.00,10.00,9.00,9.00,10.00,10.00,9.60
+NdkCP39kR/NqUO5+D9+ySV04S+5u1mgD,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,9.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,9.80
+NdkCP39kR/NqUO5+D9+ySV04S+5u1mgD,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,9.80
+NdkCP39kR/NqUO5+D9+ySV04S+5u1mgD,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,8.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,9.70
+BGATrCKgy9kZ0tBK1onW6U1Hlsb7rPDg,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,9.00,9.00,9.00,10.00,9.00,9.00,8.00,10.00,8.00,10.00,9.10
+BGATrCKgy9kZ0tBK1onW6U1Hlsb7rPDg,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,10.00,9.00,9.00,9.00,9.00,9.00,10.00,9.00,10.00,9.30
+BGATrCKgy9kZ0tBK1onW6U1Hlsb7rPDg,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,9.00,10.00,9.00,10.00,9.00,9.00,9.00,9.00,9.00,9.30
+BGATrCKgy9kZ0tBK1onW6U1Hlsb7rPDg,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,6.00,9.00,7.00,8.00,6.00,9.00,7.00,10.00,6.00,10.00,7.80
+BGATrCKgy9kZ0tBK1onW6U1Hlsb7rPDg,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,9.00,9.00,9.00,10.00,9.00,8.00,9.00,9.00
+BGATrCKgy9kZ0tBK1onW6U1Hlsb7rPDg,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,7.00,8.00,9.00,9.00,10.00,8.00,9.00,9.00,8.90
+BGATrCKgy9kZ0tBK1onW6U1Hlsb7rPDg,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,9.00,9.00,9.00,9.00,10.00,9.00,9.00,10.00,9.00,8.00,9.10
+BGATrCKgy9kZ0tBK1onW6U1Hlsb7rPDg,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,8.00,10.00,10.00,9.00,9.00,9.00,10.00,8.00,9.10
+BGATrCKgy9kZ0tBK1onW6U1Hlsb7rPDg,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,9.00,10.00,9.00,10.00,9.00,8.00,9.00,10.00,9.00,9.20
+BGATrCKgy9kZ0tBK1onW6U1Hlsb7rPDg,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,9.00,9.00,10.00,9.00,9.00,9.00,8.00,8.00,9.10
+q05yz9bkiO/DTC1yTnodjr1eC62S4qaW,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,3.00,7.00,7.00,5.00,4.00,9.00,3.00,3.00,4.00,3.00,4.80
+q05yz9bkiO/DTC1yTnodjr1eC62S4qaW,Computer Science and Business Systems,4,Pavithra,Database Management Systems,4.00,3.00,4.00,4.00,6.00,7.00,5.00,3.00,3.00,4.00,4.30
+q05yz9bkiO/DTC1yTnodjr1eC62S4qaW,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,5.00,6.00,6.00,7.00,4.00,7.00,7.00,4.00,4.00,4.00,5.40
+q05yz9bkiO/DTC1yTnodjr1eC62S4qaW,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,6.00,7.00,7.00,7.00,8.00,7.00,7.00,7.00,7.00,7.00,7.00
+q05yz9bkiO/DTC1yTnodjr1eC62S4qaW,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,7.00,7.00,8.00,8.00,7.00,8.00,8.00,8.00,7.70
+q05yz9bkiO/DTC1yTnodjr1eC62S4qaW,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,7.00,7.00,7.00,8.00,8.00,5.00,7.00,7.00,7.20
+q05yz9bkiO/DTC1yTnodjr1eC62S4qaW,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,6.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.00,5.20
+q05yz9bkiO/DTC1yTnodjr1eC62S4qaW,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00,8.00,8.00,7.90
+q05yz9bkiO/DTC1yTnodjr1eC62S4qaW,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+q05yz9bkiO/DTC1yTnodjr1eC62S4qaW,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+4YwEeQ28kkJDHUh+0gPNVfl8v71IYMme,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,7.00,10.00,4.00,6.00,6.00,5.00,8.00,9.00,9.00,7.10
+4YwEeQ28kkJDHUh+0gPNVfl8v71IYMme,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,9.00,8.00,7.00,9.00,9.00,9.00,8.00,8.00,7.00,8.30
+4YwEeQ28kkJDHUh+0gPNVfl8v71IYMme,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,8.00,8.00,9.00,9.00,9.00,9.00,8.00,7.00,7.00,8.30
+4YwEeQ28kkJDHUh+0gPNVfl8v71IYMme,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
+4YwEeQ28kkJDHUh+0gPNVfl8v71IYMme,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,8.00,8.00,9.00,9.00,8.00,9.00,9.00,9.00,10.00,8.80
+4YwEeQ28kkJDHUh+0gPNVfl8v71IYMme,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,10.00,10.00,10.00,9.00,9.00,10.00,7.00,10.00,9.00,9.30
+4YwEeQ28kkJDHUh+0gPNVfl8v71IYMme,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,9.00,9.00,8.00,10.00,9.00,10.00,8.00,7.00,9.00,8.70
+4YwEeQ28kkJDHUh+0gPNVfl8v71IYMme,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,9.00,8.00,9.00,9.00,8.00,9.30
+4YwEeQ28kkJDHUh+0gPNVfl8v71IYMme,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+4YwEeQ28kkJDHUh+0gPNVfl8v71IYMme,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,9.00,9.00,8.00,9.00,9.00,7.00,6.00,9.00,3.00,7.90
+yxXEEXm+r3X6WAAsWK49D+hfgRdDKg0x,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,9.00,10.00,7.00,10.00,7.00,10.00,6.00,9.00,5.00,8.30
+yxXEEXm+r3X6WAAsWK49D+hfgRdDKg0x,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,6.00,5.00,4.00,7.00,1.00,1.00,3.00,5.00,1.00,4.00
+yxXEEXm+r3X6WAAsWK49D+hfgRdDKg0x,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,7.00,10.00,9.00,10.00,10.00,7.00,10.00,9.00,10.00,9.20
+yxXEEXm+r3X6WAAsWK49D+hfgRdDKg0x,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,7.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,8.00,4.00,8.80
+yxXEEXm+r3X6WAAsWK49D+hfgRdDKg0x,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,8.00,10.00,9.00,10.00,10.00,8.00,8.00,10.00,10.00,9.30
+yxXEEXm+r3X6WAAsWK49D+hfgRdDKg0x,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,8.00,10.00,9.00,10.00,10.00,8.00,5.00,10.00,8.80
+yxXEEXm+r3X6WAAsWK49D+hfgRdDKg0x,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,6.00,7.00,7.00,5.00,7.00,1.00,6.00,3.00,6.00,5.00,5.30
+yxXEEXm+r3X6WAAsWK49D+hfgRdDKg0x,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,7.00,9.00,9.00,10.00,10.00,9.00,10.00,10.00,10.00,9.40
+yxXEEXm+r3X6WAAsWK49D+hfgRdDKg0x,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,8.00,10.00,10.00,10.00,10.00,10.00,10.00,7.00,10.00,9.40
+yxXEEXm+r3X6WAAsWK49D+hfgRdDKg0x,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,9.00,8.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.70
+zpP8rGgKzTrNqgJ41sGgTn8RMVAAXvKI,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,6.00,5.00,5.00,7.00,4.00,4.00,7.00,7.00,6.00,5.60
+zpP8rGgKzTrNqgJ41sGgTn8RMVAAXvKI,Computer Science and Business Systems,4,Pavithra,Database Management Systems,1.00,2.00,1.00,2.00,2.00,1.00,2.00,1.00,2.00,2.00,1.60
+zpP8rGgKzTrNqgJ41sGgTn8RMVAAXvKI,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,2.00,4.00,1.00,3.00,1.00,2.00,3.00,4.00,2.00,1.00,2.30
+zpP8rGgKzTrNqgJ41sGgTn8RMVAAXvKI,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+zpP8rGgKzTrNqgJ41sGgTn8RMVAAXvKI,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,8.00,8.00,7.00,9.00,7.00,8.00,9.00,9.00,9.00,8.20
+zpP8rGgKzTrNqgJ41sGgTn8RMVAAXvKI,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,7.00,9.00,8.00,9.00,8.00,7.00,9.00,8.40
+zpP8rGgKzTrNqgJ41sGgTn8RMVAAXvKI,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,3.00,4.00,1.00,2.00,2.00,4.00,2.00,2.00,3.00,2.00,2.50
+zpP8rGgKzTrNqgJ41sGgTn8RMVAAXvKI,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,6.00,7.00,9.00,7.00,8.00,8.00,9.00,8.00,9.00,8.00
+zpP8rGgKzTrNqgJ41sGgTn8RMVAAXvKI,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,1.00,2.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,2.00,1.20
+zpP8rGgKzTrNqgJ41sGgTn8RMVAAXvKI,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,1.00,1.00,2.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.10
+f/WAN3TMomTVx+Yd5j8Fit0jssc9D8m+,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+f/WAN3TMomTVx+Yd5j8Fit0jssc9D8m+,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.80
+f/WAN3TMomTVx+Yd5j8Fit0jssc9D8m+,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,9.00,10.00,9.80
+f/WAN3TMomTVx+Yd5j8Fit0jssc9D8m+,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,10.00,9.00,9.00,10.00,10.00,10.00,9.80
+f/WAN3TMomTVx+Yd5j8Fit0jssc9D8m+,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+f/WAN3TMomTVx+Yd5j8Fit0jssc9D8m+,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.90
+f/WAN3TMomTVx+Yd5j8Fit0jssc9D8m+,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,9.00,10.00,9.00,10.00,10.00,10.00,10.00,9.80
+f/WAN3TMomTVx+Yd5j8Fit0jssc9D8m+,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,9.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,9.80
+f/WAN3TMomTVx+Yd5j8Fit0jssc9D8m+,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+f/WAN3TMomTVx+Yd5j8Fit0jssc9D8m+,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+zeyBwp8kTXzKrAoczs2fkbwZA7DTwwRG,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,8.00,7.00,5.00,8.00,10.00,5.00,10.00,8.00,7.00,7.50
+zeyBwp8kTXzKrAoczs2fkbwZA7DTwwRG,Computer Science and Business Systems,4,Pavithra,Database Management Systems,2.00,2.00,2.00,2.00,10.00,1.00,2.00,5.00,3.00,1.00,3.00
+zeyBwp8kTXzKrAoczs2fkbwZA7DTwwRG,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,2.00,3.00,2.00,1.00,7.00,1.00,2.00,6.00,2.00,1.00,2.70
+zeyBwp8kTXzKrAoczs2fkbwZA7DTwwRG,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,5.00,5.00,3.00,10.00,2.00,2.00,5.00,1.00,1.00,3.50
+zeyBwp8kTXzKrAoczs2fkbwZA7DTwwRG,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+zeyBwp8kTXzKrAoczs2fkbwZA7DTwwRG,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,7.00,5.00,7.00,10.00,7.00,7.00,9.00,6.00,6.00,7.10
+zeyBwp8kTXzKrAoczs2fkbwZA7DTwwRG,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,2.00,2.00,2.00,1.00,7.00,1.00,2.00,7.00,1.00,1.00,2.60
+zeyBwp8kTXzKrAoczs2fkbwZA7DTwwRG,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+zeyBwp8kTXzKrAoczs2fkbwZA7DTwwRG,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,7.00,3.00,5.00,7.00,6.00,10.00,8.00,4.00,5.00,6.20
+zeyBwp8kTXzKrAoczs2fkbwZA7DTwwRG,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,3.00,3.00,2.00,2.00,8.00,2.00,3.00,5.00,1.00,1.00,3.00
+PczX/jH3cLM5iKk5lBGdZt5yQN0gUnkt,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,7.00,9.00,10.00,6.00,8.00,9.00
+PczX/jH3cLM5iKk5lBGdZt5yQN0gUnkt,Computer Science and Business Systems,4,Pavithra,Database Management Systems,5.00,2.00,5.00,4.00,10.00,5.00,7.00,5.00,6.00,7.00,5.60
+PczX/jH3cLM5iKk5lBGdZt5yQN0gUnkt,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,2.00,2.00,3.00,2.00,10.00,9.00,3.00,9.00,2.00,2.00,4.40
+PczX/jH3cLM5iKk5lBGdZt5yQN0gUnkt,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,5.00,10.00,5.00,9.00,2.00,1.00,2.00,2.00,2.00,3.90
+PczX/jH3cLM5iKk5lBGdZt5yQN0gUnkt,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+PczX/jH3cLM5iKk5lBGdZt5yQN0gUnkt,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,7.00,7.00,8.00,8.00,9.00,8.00,9.00,10.00,8.00,8.00,8.20
+PczX/jH3cLM5iKk5lBGdZt5yQN0gUnkt,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,3.00,4.00,5.00,2.00,6.00,5.00,6.00,7.00,8.00,6.00,5.20
+PczX/jH3cLM5iKk5lBGdZt5yQN0gUnkt,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+PczX/jH3cLM5iKk5lBGdZt5yQN0gUnkt,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,7.00,6.00,6.00,8.00,8.00,7.00,5.00,6.00,6.00,6.70
+PczX/jH3cLM5iKk5lBGdZt5yQN0gUnkt,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,5.00,6.00,5.00,4.00,3.00,2.00,5.00,4.00,3.00,3.00,4.00
+naYalYPJ3OEKkp0qMz9jtd0j6EVfXhxd,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,8.00,7.00,8.00,7.00,7.00,7.00,7.00,8.00,7.00,7.30
+naYalYPJ3OEKkp0qMz9jtd0j6EVfXhxd,Computer Science and Business Systems,4,Pavithra,Database Management Systems,3.00,5.00,3.00,3.00,5.00,3.00,6.00,2.00,4.00,3.00,3.70
+naYalYPJ3OEKkp0qMz9jtd0j6EVfXhxd,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,2.00,2.00,2.00,2.00,2.00,2.00,2.00,2.00,2.00,2.00,2.00
+naYalYPJ3OEKkp0qMz9jtd0j6EVfXhxd,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+naYalYPJ3OEKkp0qMz9jtd0j6EVfXhxd,Computer Science and Business Systems,4,Manonmani,Machine Learning,5.00,6.00,6.00,5.00,5.00,4.00,7.00,3.00,7.00,4.00,5.20
+naYalYPJ3OEKkp0qMz9jtd0j6EVfXhxd,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,8.00,10.00,8.00,6.00,7.00,9.00,5.00,5.00,8.00,7.50
+naYalYPJ3OEKkp0qMz9jtd0j6EVfXhxd,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,8.00,7.00,7.00,8.00,6.00,5.00,10.00,7.00,9.00,7.50
+naYalYPJ3OEKkp0qMz9jtd0j6EVfXhxd,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+naYalYPJ3OEKkp0qMz9jtd0j6EVfXhxd,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,8.00,6.00,7.00,5.00,8.00,6.00,10.00,7.00,9.00,7.40
+naYalYPJ3OEKkp0qMz9jtd0j6EVfXhxd,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,4.00,7.00,5.00,7.00,8.00,5.00,7.00,5.00,5.00,1.00,5.40
+HZIYocy7Rb/GvK616LJxk2b6eecfcqdn,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,5.00,8.00,5.00,6.00,9.00,8.00,9.00,10.00,6.00,4.00,7.00
+HZIYocy7Rb/GvK616LJxk2b6eecfcqdn,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,8.00,7.00,10.00,10.00,7.00,8.00,8.00,10.00,9.00,8.70
+HZIYocy7Rb/GvK616LJxk2b6eecfcqdn,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,6.00,8.00,9.00,9.00,7.00,8.00,7.00,9.00,8.00,7.90
+HZIYocy7Rb/GvK616LJxk2b6eecfcqdn,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,4.00,8.00,6.00,9.00,10.00,7.00,6.00,5.00,5.00,8.00,6.80
+HZIYocy7Rb/GvK616LJxk2b6eecfcqdn,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,9.00,10.00,9.00,8.00,9.00,9.00,9.00,10.00,10.00,9.30
+HZIYocy7Rb/GvK616LJxk2b6eecfcqdn,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,8.00,9.00,10.00,7.00,9.00,6.00,2.00,7.00,6.00,7.40
+HZIYocy7Rb/GvK616LJxk2b6eecfcqdn,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,7.00,8.00,9.00,7.00,9.00,10.00,7.00,8.00,10.00,8.20
+HZIYocy7Rb/GvK616LJxk2b6eecfcqdn,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,9.00,8.00,9.00,10.00,8.00,9.00,10.00,9.00,10.00,9.20
+HZIYocy7Rb/GvK616LJxk2b6eecfcqdn,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,8.00,9.00,8.00,7.00,8.00,6.00,7.00,8.00,6.00,7.40
+HZIYocy7Rb/GvK616LJxk2b6eecfcqdn,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,8.00,9.00,10.00,9.00,8.00,7.00,9.00,10.00,8.00,8.50
+DDE7Cd71AHvFw1wk2pXtv/g8cLzlHu9l,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,9.00,8.00,8.00,7.00,8.00,10.00,8.00,7.00,7.00,8.00
+DDE7Cd71AHvFw1wk2pXtv/g8cLzlHu9l,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,7.00,6.00,7.00,8.00,6.00,7.00,8.00,7.00,8.00,7.10
+DDE7Cd71AHvFw1wk2pXtv/g8cLzlHu9l,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,8.00,9.00,8.00,8.00,9.00,9.00,8.00,8.00,9.00,8.40
+DDE7Cd71AHvFw1wk2pXtv/g8cLzlHu9l,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,5.00,1.00,1.00,1.00,1.00,1.00,1.40
+DDE7Cd71AHvFw1wk2pXtv/g8cLzlHu9l,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,10.00,10.00,9.20
+DDE7Cd71AHvFw1wk2pXtv/g8cLzlHu9l,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,9.00,9.00,8.40
+DDE7Cd71AHvFw1wk2pXtv/g8cLzlHu9l,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,7.00,5.00,6.00,8.00,6.00,7.00,7.00,6.00,8.00,6.70
+DDE7Cd71AHvFw1wk2pXtv/g8cLzlHu9l,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,9.00,9.00,9.00,9.00,8.00,10.00,8.00,8.90
+DDE7Cd71AHvFw1wk2pXtv/g8cLzlHu9l,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+DDE7Cd71AHvFw1wk2pXtv/g8cLzlHu9l,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+eNJ+RLruxR5498q7td2x+9aEDp51eMaJ,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+eNJ+RLruxR5498q7td2x+9aEDp51eMaJ,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,9.90
+eNJ+RLruxR5498q7td2x+9aEDp51eMaJ,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+eNJ+RLruxR5498q7td2x+9aEDp51eMaJ,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,10.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,9.90
+eNJ+RLruxR5498q7td2x+9aEDp51eMaJ,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+eNJ+RLruxR5498q7td2x+9aEDp51eMaJ,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+eNJ+RLruxR5498q7td2x+9aEDp51eMaJ,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,10.00,10.00,9.00,10.00,9.00,10.00,10.00,10.00,10.00,9.80
+eNJ+RLruxR5498q7td2x+9aEDp51eMaJ,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.90
+eNJ+RLruxR5498q7td2x+9aEDp51eMaJ,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+eNJ+RLruxR5498q7td2x+9aEDp51eMaJ,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,9.00,10.00,10.00,10.00,9.00,9.00,10.00,10.00,10.00,9.70
+QwLaJ3KlqEw7RvaVfaTYJcwBwk8rqs7j,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+QwLaJ3KlqEw7RvaVfaTYJcwBwk8rqs7j,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
+QwLaJ3KlqEw7RvaVfaTYJcwBwk8rqs7j,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,8.00,8.00,8.00,8.00,7.00,8.00,8.00,8.00,8.00,7.90
+QwLaJ3KlqEw7RvaVfaTYJcwBwk8rqs7j,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,4.00,4.00,4.00,4.00,4.00,4.00,5.00,4.00,4.00,4.00,4.10
+QwLaJ3KlqEw7RvaVfaTYJcwBwk8rqs7j,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,9.00,9.00,9.00,9.00,10.00,10.00,10.00,9.30
+QwLaJ3KlqEw7RvaVfaTYJcwBwk8rqs7j,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00,7.00,8.00,7.80
+QwLaJ3KlqEw7RvaVfaTYJcwBwk8rqs7j,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,8.00,8.00,7.00,6.00,8.00,8.00,8.00,8.00,8.00,7.70
+QwLaJ3KlqEw7RvaVfaTYJcwBwk8rqs7j,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,8.00,8.00,8.00,7.00,7.00,7.00,9.00,10.00,10.00,10.00,8.40
+QwLaJ3KlqEw7RvaVfaTYJcwBwk8rqs7j,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,8.00,8.00,9.50
+QwLaJ3KlqEw7RvaVfaTYJcwBwk8rqs7j,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00,7.00,8.00,7.80
+v/AXLsBDkw0iRFQzzGv0C2K//IerydUD,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,8.00,9.00,9.00,6.00,10.00,8.00,6.00,7.00,10.00,8.00
+v/AXLsBDkw0iRFQzzGv0C2K//IerydUD,Computer Science and Business Systems,4,Pavithra,Database Management Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+v/AXLsBDkw0iRFQzzGv0C2K//IerydUD,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,7.00,4.00,9.00,5.00,7.00,8.00,8.00,9.00,10.00,7.70
+v/AXLsBDkw0iRFQzzGv0C2K//IerydUD,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+v/AXLsBDkw0iRFQzzGv0C2K//IerydUD,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.90
+v/AXLsBDkw0iRFQzzGv0C2K//IerydUD,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,6.00,6.00,8.00,3.00,7.00,8.00,8.00,7.00,7.00,1.00,6.10
+v/AXLsBDkw0iRFQzzGv0C2K//IerydUD,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,10.00,9.00,10.00,10.00,10.00,9.00,10.00,9.00,10.00,10.00,9.70
+v/AXLsBDkw0iRFQzzGv0C2K//IerydUD,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,10.00,9.00,9.00,10.00,9.00,9.00,9.00,10.00,9.00,10.00,9.40
+v/AXLsBDkw0iRFQzzGv0C2K//IerydUD,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,10.00,10.00,10.00,10.00,9.00,10.00,10.00,10.00,10.00,10.00,9.90
+v/AXLsBDkw0iRFQzzGv0C2K//IerydUD,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,10.00,10.00,10.00,10.00,10.00,10.00,9.00,9.00,10.00,10.00,9.80
+TCOQIzp4Q8CB6UpYD8XngPrxVUJiP+g3,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+TCOQIzp4Q8CB6UpYD8XngPrxVUJiP+g3,Computer Science and Business Systems,4,Pavithra,Database Management Systems,9.00,9.00,8.00,8.00,8.00,8.00,7.00,8.00,7.00,7.00,7.90
+TCOQIzp4Q8CB6UpYD8XngPrxVUJiP+g3,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+TCOQIzp4Q8CB6UpYD8XngPrxVUJiP+g3,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,5.00,5.00,5.00,4.00,5.00,4.00,4.00,2.00,4.00,3.90
+TCOQIzp4Q8CB6UpYD8XngPrxVUJiP+g3,Computer Science and Business Systems,4,Manonmani,Machine Learning,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,1.00,9.10
+TCOQIzp4Q8CB6UpYD8XngPrxVUJiP+g3,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+TCOQIzp4Q8CB6UpYD8XngPrxVUJiP+g3,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,7.00,8.00,9.00,7.00,8.00,8.00,8.00,8.00,8.00,7.80
+TCOQIzp4Q8CB6UpYD8XngPrxVUJiP+g3,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,1.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.10
+TCOQIzp4Q8CB6UpYD8XngPrxVUJiP+g3,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,6.00,7.00,8.00,7.00,8.00,7.00,8.00,7.00,7.00,8.00,7.30
+TCOQIzp4Q8CB6UpYD8XngPrxVUJiP+g3,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,9.00,8.00,9.00,8.00,8.00,9.00,8.00,9.00,9.00,8.00,8.50
+3o3A+thw7sHuZlS/K9SmpWRpwM2TOM3j,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+3o3A+thw7sHuZlS/K9SmpWRpwM2TOM3j,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
+3o3A+thw7sHuZlS/K9SmpWRpwM2TOM3j,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00
+3o3A+thw7sHuZlS/K9SmpWRpwM2TOM3j,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+3o3A+thw7sHuZlS/K9SmpWRpwM2TOM3j,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
+3o3A+thw7sHuZlS/K9SmpWRpwM2TOM3j,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
+3o3A+thw7sHuZlS/K9SmpWRpwM2TOM3j,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
+3o3A+thw7sHuZlS/K9SmpWRpwM2TOM3j,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00
+3o3A+thw7sHuZlS/K9SmpWRpwM2TOM3j,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,7.00,6.00,6.00,6.00,7.00,6.00,7.00,6.00,6.00,6.40
+3o3A+thw7sHuZlS/K9SmpWRpwM2TOM3j,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00,8.00
+f+DqM1t0tM708M9iQ93wumf5nBu2zcGk,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,9.00,10.00,10.00,9.90
+f+DqM1t0tM708M9iQ93wumf5nBu2zcGk,Computer Science and Business Systems,4,Pavithra,Database Management Systems,8.00,8.00,8.00,7.00,8.00,7.00,8.00,8.00,8.00,8.00,7.80
+f+DqM1t0tM708M9iQ93wumf5nBu2zcGk,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,8.00,8.00,8.00,8.00,9.00,9.00,8.00,8.00,9.00,8.30
+f+DqM1t0tM708M9iQ93wumf5nBu2zcGk,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,2.00,2.00,2.00,1.00,1.00,1.00,2.00,1.00,2.00,2.00,1.60
+f+DqM1t0tM708M9iQ93wumf5nBu2zcGk,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,9.00,9.00,9.00,8.00,8.00,8.00,9.00,8.00,8.00,8.50
+f+DqM1t0tM708M9iQ93wumf5nBu2zcGk,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,9.00,9.00,8.00,9.00,9.00,8.00,8.00,8.00,9.00,8.50
+f+DqM1t0tM708M9iQ93wumf5nBu2zcGk,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,5.00,7.00,7.00,7.00,8.00,8.00,8.00,7.00,8.00,7.30
+f+DqM1t0tM708M9iQ93wumf5nBu2zcGk,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,8.00,8.00,9.00,9.00,9.00,8.00,8.00,8.00,8.50
+f+DqM1t0tM708M9iQ93wumf5nBu2zcGk,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,8.00,7.00,8.00,8.00,8.00,9.00,8.00,8.00,9.00,8.20
+f+DqM1t0tM708M9iQ93wumf5nBu2zcGk,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,9.00,8.00,8.00,8.00,8.00,9.00,8.00,8.00,9.00,8.30
+S9wJz0MQUU3ss2B6SVgP9QqLxDZ+xaz/,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00,10.00
+S9wJz0MQUU3ss2B6SVgP9QqLxDZ+xaz/,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,8.00,7.00,7.00,7.00,7.00,8.00,8.00,8.00,7.00,7.40
+S9wJz0MQUU3ss2B6SVgP9QqLxDZ+xaz/,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,8.00,6.00,7.00,7.00,7.00,7.00,7.00,8.00,8.00,8.00,7.30
+S9wJz0MQUU3ss2B6SVgP9QqLxDZ+xaz/,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+S9wJz0MQUU3ss2B6SVgP9QqLxDZ+xaz/,Computer Science and Business Systems,4,Manonmani,Machine Learning,9.00,8.00,9.00,8.00,8.00,9.00,9.00,8.00,9.00,9.00,8.60
+S9wJz0MQUU3ss2B6SVgP9QqLxDZ+xaz/,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,9.00,9.00,9.00,9.00,9.00,9.00,9.00,9.00,7.00,8.00,8.70
+S9wJz0MQUU3ss2B6SVgP9QqLxDZ+xaz/,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,5.00,10.00,9.00,9.00,10.00,3.00,7.00,8.00,9.00,7.80
+S9wJz0MQUU3ss2B6SVgP9QqLxDZ+xaz/,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,8.00,8.00,8.00,8.00,9.00,8.00,8.00,9.00,9.00,8.40
+S9wJz0MQUU3ss2B6SVgP9QqLxDZ+xaz/,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,9.00,7.00,8.00,9.00,9.00,9.00,8.00,8.00,8.00,8.00,8.30
+S9wJz0MQUU3ss2B6SVgP9QqLxDZ+xaz/,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,8.00,8.00,9.00,8.00,8.00,8.00,8.00,8.00,8.00,7.00,8.00
+DVHCYlMy3M8bNT+GHS2fatFu+sBFWiv7,Computer Science and Business Systems,4,Syed Fazlullah,Probability and Statistics,7.00,6.00,7.00,8.00,7.00,7.00,7.00,7.00,7.00,9.00,7.20
+DVHCYlMy3M8bNT+GHS2fatFu+sBFWiv7,Computer Science and Business Systems,4,Pavithra,Database Management Systems,7.00,8.00,9.00,8.00,9.00,9.00,9.00,8.00,7.00,9.00,8.30
+DVHCYlMy3M8bNT+GHS2fatFu+sBFWiv7,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems,9.00,10.00,9.00,7.00,8.00,9.00,8.00,7.00,8.00,9.00,8.40
+DVHCYlMy3M8bNT+GHS2fatFu+sBFWiv7,Computer Science and Business Systems,4,Latha,Introduction to Buisness System,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+DVHCYlMy3M8bNT+GHS2fatFu+sBFWiv7,Computer Science and Business Systems,4,Manonmani,Machine Learning,8.00,9.00,10.00,9.00,8.00,9.00,8.00,6.00,8.00,10.00,8.50
+DVHCYlMy3M8bNT+GHS2fatFu+sBFWiv7,Computer Science and Business Systems,4,Thulasidasan,Environmental Sciences and Sustainability,8.00,10.00,8.00,10.00,8.00,9.00,8.00,10.00,9.00,8.00,8.80
+DVHCYlMy3M8bNT+GHS2fatFu+sBFWiv7,Computer Science and Business Systems,4,Pavithra,Database Management Systems Laboratory,8.00,9.00,8.00,9.00,8.00,8.00,9.00,9.00,9.00,9.00,8.60
+DVHCYlMy3M8bNT+GHS2fatFu+sBFWiv7,Computer Science and Business Systems,4,Manonmani,Machine Learning Laboratory,9.00,9.00,9.00,10.00,9.00,9.00,10.00,9.00,10.00,3.00,8.70
+DVHCYlMy3M8bNT+GHS2fatFu+sBFWiv7,Computer Science and Business Systems,4,Kalyanasundaram,Buisness Communication,7.00,7.00,8.00,7.00,8.00,7.00,8.00,7.00,8.00,8.00,7.50
+DVHCYlMy3M8bNT+GHS2fatFu+sBFWiv7,Computer Science and Business Systems,4,Arunjunai Karthick,Operating Systems Laboratory,7.00,8.00,9.00,8.00,7.00,8.00,8.00,7.00,8.00,7.00,7.70
+ytBX/ttfkwWl1V2HOnJLBh7oOdGoMASf,Artificial Intelligence and Data Science,1,Mr. Bharathidasan,Analog and Digital Integrated Circuits,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
+ytBX/ttfkwWl1V2HOnJLBh7oOdGoMASf,Artificial Intelligence and Data Science,1,Miss. Kavitha,Analog and Digital Integrated Circuits Laboratory,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
+ytBX/ttfkwWl1V2HOnJLBh7oOdGoMASf,Artificial Intelligence and Data Science,1,Mrs. Niharika Singh,Applied Hydraulics Engineering,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
+ytBX/ttfkwWl1V2HOnJLBh7oOdGoMASf,Artificial Intelligence and Data Science,1,Dr. Sangeetha,Basic Electrical Electronics and Instrumentation Engineering Laboratory,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00,7.00
+NcDWTq/FCAUCxlBFCNecUlF3k0pTQbwP,Artificial Intelligence and Data Science,1,Mr. Bharathidasan,Analog and Digital Integrated Circuits,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00
+NcDWTq/FCAUCxlBFCNecUlF3k0pTQbwP,Artificial Intelligence and Data Science,1,Miss. Kavitha,Analog and Digital Integrated Circuits Laboratory,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00
+NcDWTq/FCAUCxlBFCNecUlF3k0pTQbwP,Artificial Intelligence and Data Science,1,Mrs. Niharika Singh,Applied Hydraulics Engineering,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00
+NcDWTq/FCAUCxlBFCNecUlF3k0pTQbwP,Artificial Intelligence and Data Science,1,Dr. Sangeetha,Basic Electrical Electronics and Instrumentation Engineering Laboratory,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00,6.00

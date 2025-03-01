@@ -1,10 +1,10 @@
 import os
 import csv
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
 import matplotlib
-
 matplotlib.use("Agg")
 from routes.hod_routes import hod_bp
+from routes.admin_routes import admin_bp
 
 from utils import (
     read_csv_as_list,
@@ -13,6 +13,8 @@ from utils import (
     append_ratings,
     get_student_info,
     has_submitted_feedback,
+    encrypt_regno,
+    is_encrypted,
 )
 from config import (
     DEPARTMENTS_FILE,
@@ -28,6 +30,7 @@ from asgiref.wsgi import WsgiToAsgi
 app = Flask(__name__)
 app.secret_key = "your_secret_key"  # Replace with a secure key in production
 app.register_blueprint(hod_bp)
+app.register_blueprint(admin_bp)
 
 
 asgi_app = WsgiToAsgi(app)
@@ -47,8 +50,8 @@ def add_staff():
                 writer = csv.writer(csvfile)
                 writer.writerow([staff_name])
             flash("Staff added successfully!", "success")
-    return redirect(url_for("admin"))
-
+            return {"success": True, "message": "Staff added successfully!"}
+    return {"success": False, "message": "Staff name is required"}
 
 @app.route("/add_subject", methods=["POST"])
 def add_subject():
@@ -64,30 +67,136 @@ def add_subject():
                 writer = csv.writer(csvfile)
                 writer.writerow([subject_name])
             flash("Subject added successfully!", "success")
-    return redirect(url_for("admin"))
+            return {"success": True, "message": "Subject added successfully!"}
+    return {"success": False, "message": "Subject name is required"}
 
+@app.route("/validate_regno", methods=["POST"])
+def validate_regno():
+    registerno = request.form.get("registerno", "").strip()
+    if not registerno:
+        return jsonify({
+            "valid": False,
+            "message": "Please enter a registration number"
+        })
+
+    try:
+        # Remove any whitespace and non-numeric characters
+        registerno = ''.join(filter(str.isdigit, registerno))
+        
+        if not registerno:
+            return jsonify({
+                "valid": False,
+                "message": "Registration number must contain at least one digit"
+            })
+
+        reg_num = int(registerno)
+        if reg_num < 1:
+            return jsonify({
+                "valid": False,
+                "message": "Registration number must be a positive number"
+            })
+
+        student_info = get_student_info(registerno)
+        if not student_info:
+            return jsonify({
+                "valid": False,
+                "message": "Registration number not found"
+            })
+
+        if has_submitted_feedback(registerno):
+            return jsonify({
+                "valid": False,
+                "message": "Feedback already submitted for this registration number"
+            })
+
+        # Check registration number range
+        department = student_info.get("department")
+        semester = student_info.get("semester")
+        with open(STUDENT_FILE, "r") as f:
+            reader = csv.DictReader(f)
+            reg_nums = [int(row["registerno"]) for row in reader 
+                      if row["department"] == department and row["semester"] == semester]
+
+        if reg_nums:
+            min_reg = min(reg_nums)
+            max_reg = max(reg_nums)
+            if max_reg - min_reg > 120:
+                return jsonify({
+                    "valid": False,
+                    "message": "Registration number range exceeds 120 for your batch"
+                })
+
+        return jsonify({
+            "valid": True,
+            "message": "Registration number validated successfully!"
+        })
+
+    except ValueError:
+        return jsonify({
+            "valid": False,
+            "message": "Invalid registration number format"
+        })
 
 @app.route("/", methods=["GET", "POST"])
 def student_login():
     if request.method == "POST":
-        registerno = request.form.get("registerno")
+        registerno = request.form.get("registerno", "")
         if not registerno:
             flash("Please enter your registration number.", "danger")
-        else:
-            student_info = get_student_info(registerno.strip())
+            return render_template("student_login.html")
+        
+        # Clean registration number - remove whitespace and non-numeric characters
+        registerno = ''.join(filter(str.isdigit, registerno))
+        
+        if not registerno:
+            flash("Registration number must contain at least one digit.", "danger")
+            return render_template("student_login.html")
+        
+        try:
+            reg_num = int(registerno)
+            if reg_num < 1:
+                flash("Registration number must be a positive number.", "danger")
+                return render_template("student_login.html")
+            
+            student_info = get_student_info(registerno)
             if not student_info:
                 flash("Registration number not found. Please try again.", "danger")
-            else:
-                department = student_info.get("department")
-                semester = student_info.get("semester")
-                return redirect(
-                    url_for(
-                        "feedback",
-                        department=department,
-                        semester=semester,
-                        registerno=registerno,
-                    )
+                return render_template("student_login.html")
+            
+            # Get all registration numbers from the same department and semester
+            department = student_info.get("department")
+            semester = student_info.get("semester")
+            with open(STUDENT_FILE, "r") as f:
+                reader = csv.DictReader(f)
+                reg_nums = [int(row["registerno"]) for row in reader
+                          if row["department"] == department and row["semester"] == semester]
+            
+            # Check if the difference between min and max is <= 120
+            if reg_nums:
+                min_reg = min(reg_nums)
+                max_reg = max(reg_nums)
+                if max_reg - min_reg > 120:
+                    flash("Registration number range exceeds 120 for your batch.", "danger")
+                    return render_template("student_login.html")
+            
+            if has_submitted_feedback(registerno):
+                flash("Feedback already submitted for this registration number.", "info")
+                return render_template("student_login.html")
+            
+            flash("Registration number validated successfully!", "success")
+            return redirect(
+                url_for(
+                    "feedback",
+                    department=department,
+                    semester=semester,
+                    registerno=registerno,
                 )
+            )
+            
+        except ValueError:
+            flash("Invalid registration number format.", "danger")
+            return render_template("student_login.html")
+    
     return render_template("student_login.html")
 
 
@@ -211,7 +320,7 @@ def feedback():
 
             average = sum(ratings) / len(ratings)
             row_data = {
-                "registerno": registerno,
+                "registerno": encrypt_regno(registerno) if not is_encrypted(registerno) else registerno,
                 "department": department,
                 "semester": semester,
                 "staff": mapping["staff"],
@@ -244,75 +353,11 @@ def feedback():
     )
 
 
-# Add students route
+# Redirect to admin_routes.py for adding students
 @app.route("/addStudents", methods=["POST"])
-def add_students():
-    department = request.form.get("department")
-    semester = request.form.get("semester")
-    start_reg = request.form.get("startReg")
-    end_reg = request.form.get("endReg")
-
-    if not (department and semester and start_reg and end_reg):
-        flash("All fields are required for adding students.", "danger")
-        return redirect(url_for("admin"))
-
-    try:
-        start_num = int(start_reg)
-        end_num = int(end_reg)
-    except ValueError:
-        flash("Registration numbers must be numeric.", "danger")
-        return redirect(url_for("admin"))
-
-    if start_num > end_num:
-        flash(
-            "Start registration number must be less than or equal to end registration number.",
-            "danger",
-        )
-        return redirect(url_for("admin"))
-
-    if (end_num - start_num) > 100:
-        flash(
-            "Difference between start and end registration numbers is too high. Please check again.",
-            "danger",
-        )
-        return redirect(url_for("admin"))
-
-    # Extract numeric semester (e.g., from 'Semester 4' or '4')
-    sem_clean = semester.strip().split()[-1]
-
-    # Read existing records (if any)
-    records = []
-    if os.path.exists(STUDENT_FILE):
-        with open(STUDENT_FILE, newline="", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                records.append(row)
-
-    # Determine new registration numbers to be added
-    new_regs = {str(reg) for reg in range(start_num, end_num + 1)}
-    # Remove any duplicates in existing records
-    filtered_records = [row for row in records if row.get("registerno") not in new_regs]
-
-    # Append new records
-    for reg in range(start_num, end_num + 1):
-        filtered_records.append(
-            {
-                "registerno": str(reg),
-                "department": department.strip(),
-                "semester": sem_clean,
-            }
-        )
-
-    # Write updated records back to student.csv
-    with open(STUDENT_FILE, "w", newline="", encoding="utf-8") as f:
-        fieldnames = ["registerno", "department", "semester"]
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        for row in filtered_records:
-            writer.writerow(row)
-
-    flash(f"Students added/updated successfully ({start_num} to {end_num}).", "success")
-    return redirect(url_for("admin"))
+def add_students_redirect():
+    # This route is deprecated, redirecting to the new route in admin_routes.py
+    return redirect(url_for('admin.add_students'))
 
 
 if __name__ == "__main__":
@@ -333,5 +378,6 @@ if __name__ == "__main__":
             exit(1)
 
     import uvicorn
-
-    uvicorn.run(asgi_app, host="localhost", port=8000)
+    import socket
+    host_ip = socket.gethostbyname(socket.gethostname())
+    uvicorn.run(asgi_app, host=host_ip, port=8000)
