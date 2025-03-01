@@ -16,10 +16,17 @@ class CustomDocTemplate(SimpleDocTemplate):
         SimpleDocTemplate.__init__(self, filename, **kw)
         self.frames = []
         
-    def handle_frameBegin(self, frame):
+    def handle_frameBegin(self, frame=None, **kwargs):
         """Override to handle frame beginning"""
-        self.frame = frame
-        return SimpleDocTemplate.handle_frameBegin(self, frame)
+        if frame is not None:
+            self.frame = frame
+            return SimpleDocTemplate.handle_frameBegin(self, frame, **kwargs)
+        elif hasattr(self, 'frame') and self.frame is not None:
+            # Use the existing frame if available
+            return SimpleDocTemplate.handle_frameBegin(self, self.frame, **kwargs)
+        else:
+            # Handle the case when frame is not provided
+            return SimpleDocTemplate.handle_frameBegin(self, **kwargs)
 
 def create_score_graph(feedback_data):
     """

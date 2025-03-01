@@ -380,4 +380,4 @@ if __name__ == "__main__":
     import uvicorn
     import socket
     host_ip = socket.gethostbyname(socket.gethostname())
-    uvicorn.run(asgi_app, host=host_ip, port=8000)
+    uvicorn.run(asgi_app, host=host_ip, port=80)
